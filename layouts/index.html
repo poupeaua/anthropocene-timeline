@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<header>
+    <div id="carouselExampleCaptions" class="">
+      <section class="hero is-fullheight" style="background: url('/img/ecology/carousel/art-ipcc-curv.jpeg') center center / cover no-repeat;">
+        <div class="hero">
+          <h5><a style="text-decoration: none;" href="https://www.jillpelto.com/currents/" target="_blank">{{ $.Param "carousel.carousel1.info" | markdownify }}</a></h5>
+          <p>{{ $.Param "carousel.carousel1.subinfo" }}</p>
+        </div>
+      </section>
+    </div>
+</header>
+
+<!-- Timeline Section-->
+<section class="section bg-white text-secondary mb-0" id="timeline">
+    <div class="container">
+        <!-- About Section Heading-->
+        <h2 class="section-heading text-center text-uppercase">{{ $.Param "timeline.title" }}</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="bi bi-calendar2-week-fill"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <p class="text-center">{{ $.Param "timeline.intro" }}</p>
+
+        <p class="text-center">{{ $.Param "timeline.citation" | markdownify }}</p>
+
+        <ul class="timeline" id="accordion">
+            {{ range $index, $element := (where .Site.Pages "Type" "timelineEvent").ByParam "Order" }}
+            <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <a class="button">
+                    <p class="timeline-event-thumbnail">{{ .Params.Year }}</p>
+                    <p class="timeline-event-title">{{ .Title }}</p>
+                  </a>
+                  <div id="{{ .Params.id }}" class="collapse">
+                    <h3>{{ .Title }}</h3>
+                    {{ .Content }}
+                  </div>
+                </div>
+            </li>
+            {{ end }}
+        </ul>
+    </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,16 @@
+{{ define "main" }}
+  
+  <!-- Masthead-->
+  <header class="masthead text-center">
+    <div class="container d-flex align-items-center flex-column text-secondary">
+        <!-- Masthead 404 Image-->
+        <img class="masthead-avatar" src="/img/404-error-icon.jpg"/>
+        <!-- Masthead Heading-->
+        <h1>Erreur 404</h1>
+        <p>La page que vous cherchez n'a pas été trouvée.</p>
+        <a class="btn btn-outline-secondary text-uppercase" href="{{ .Site.Home.RelPermalink }}">
+          Retour à la page principale
+        </a>
+    </div>
+  </header>
+{{ end }}

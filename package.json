@@ -1,0 +1,29 @@
+{
+  "name": "anthropocene-timeline",
+  "version": "1.0.0",
+  "description": "Share your timeline of the Anthropocene",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-bulma": "sass --load-path=node_modules assets/sass/anthropocene-timeline.scss static/css/anthropocene-timeline.css",
+    "start": "npm run build-bulma -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poupeaua/anthropocene-timeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poupeaua/anthropocene-timeline/issues"
+  },
+  "homepage": "https://github.com/poupeaua/anthropocene-timeline#readme",
+  "dependencies": {
+    "bulma": "^1.0.4",
+    "sass": "^1.89.2"
+  }
+}

@@ -1,0 +1,17 @@
+<button class="button dropdown">
+	<i class="bi bi-translate me-1"></i>{{ .Language }}
+</button>
+
+<div class="dropdown-menu">
+	{{ if .IsTranslated -}}
+	{{- range .Translations -}}
+	<a class="dropdown-item post-translation" href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+	{{ end -}}
+	{{ else -}}
+	{{ range .Site.Languages -}}
+	{{ if ne $.Site.Language.Lang .Lang }}
+	<a rel="dropdown-item post-translation" href="{{ relLangURL "/" }}">{{ .LanguageName }}</a>
+	{{ end -}}
+	{{ end -}}
+	{{ end -}}
+</div>

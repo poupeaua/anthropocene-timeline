@@ -1,0 +1,6 @@
+<figure class="bg-primary p-3 rounded text-white">
+    <blockquote>
+        <p>"{{ .Get "textQuote" }}"</p>
+    </blockquote>
+    <figcaption>—{{ .Get "whoQuote" }}, <cite><a {{ with .Get "linkQuote" }}href="{{.}}"{{ end }} target="_blank">{{ .Get "srcQuote" }}</a></cite>, {{ .Get "infoQuote" }}</figcaption>
+</figure> 

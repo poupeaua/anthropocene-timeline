@@ -1,0 +1,21 @@
+{
+    "footer": {
+       "location": {
+           "other": "Location"
+       },
+       "aroundWeb": {
+           "other": "Around the web"
+       },
+       "contactMe": {
+           "other": "Contact me"
+       },
+       "copiedToClipboard": {
+            "other": "Copied to clipboard!"
+       }
+    },
+    "nav": {
+        "menu": {
+            "other": "Menu"
+        }
+    }
+ }

@@ -1,0 +1,130 @@
+{{ define "main" }}
+
+<!-- Bibliography Section-->
+<section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+        <!-- About Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-white">{{ $.Param "biblio.title" }}</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="bi bi-book"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <p class="text-center">{{ $.Param "biblio.intro" }}</p>
+
+        <p class="mb-5 text-center">{{ $.Param "biblio.citation" | markdownify }}</p>
+
+        <input name="input-custom-dropdown" class="bg-white rounded text-primary w-100" placeholder="{{ $.Param "biblio.tags.input" }}" value="">
+
+        <div class="card-columns text-primary">
+            {{ range $index, $element := (where .Site.Pages "Type" "book").ByParam "Order" }}
+            <div class="card biblio-element" id="biblio{{ $index }}" style="cursor: pointer;" onclick="window.open('{{ .Params.link }}');">
+                <img class="card-img-top" src="{{ .Params.img }}">
+                <div class="card-body">
+                <h5 class="card-title">{{ .Title }}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{ .Params.Subtitle }}</h6>
+                {{ .Content }}             
+                </div>
+                <div class="panel-footer">
+                <span class="label label-primary hidden">All</span>
+                {{ range .Params.Tags }}
+                <span class="label badge bg-primary">{{ . }}</span>
+                {{ end }}
+                {{ range .Params.TagsLanguages }}
+                <span class="label hidden">{{ . }}</span>
+                {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+<!-- Video Section-->
+<section class="page-section bg-white text-secondary mb-0" id="about">
+    <div class="container">
+        <!-- About Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase">{{ $.Param "videos.title" }}</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="bi bi-camera-reels-fill"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <p class="text-center">{{ $.Param "videos.intro" }}</p>
+
+        <p class="mb-5 text-center">{{ $.Param "videos.citation" | markdownify }}</p>
+
+        <!-- Conferences -->
+        <h3 class="mt-3 mb-3 text-center"><i class="bi bi-person-video3"></i> {{ $.Param "videos.elements.conferences" }}</h3>
+        <div class="row justify-content-center">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/FoCN8vFPMz4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>              
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/LCZQZMpfAWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/8Lhl6zE30z4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/9X4bV9fYkfs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/TObfFD_ac8Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/tWLkvzxs3s8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/kSVA5Q79Urc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/JjoX0nY38hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/mMQwdUxF_bQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/5Itg__JuZxU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/DOUTXdsWU3Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/i8RMX8ODWQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        </div>
+
+        <!-- Documentaries -->
+        <h3 class="mt-3 mb-3 text-center"><i class="bi bi-play-btn-fill"></i> {{ $.Param "videos.elements.documentaries" }}</h3>
+        <div class="row justify-content-center">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/7IBG2V98IBY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/YQhflH4alO0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/8nzRXxPnlPQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        </div>
+
+        <!-- Film & Series -->
+        <h3 class="mt-3 mb-3 text-center"><i class="bi bi-film"></i> {{ $.Param "videos.elements.films" }}</h3>
+        <div class="row justify-content-center">
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/RbIxYm3mKzI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 mb-3">
+            <iframe class="iframe-compo" src="https://www.youtube.com/embed/xdk2Sargd3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>                
+        </div>
+        </div>
+
+    </div>
+</section>
+
+{{ end }}

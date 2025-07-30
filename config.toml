@@ -1,0 +1,40 @@
+baseURL = 'https://alexandrepoupeau.com/'
+languageCode = 'en-us'
+title = 'Anthropocene Timeline - Alexandre Poupeau Website'
+defaultContentLanguage = 'en'
+publishDir = 'docs'
+staticDir = 'static'
+
+[params]
+copyright = 'Copyright © Anthropocene Timeline - Alexandre Poupeau Website 2025'
+email = "alexandre.poupeau.contact@gmail.com"
+siteName = 'Anthropocene Timeline'
+[params.navigation]
+  help = 'Help'
+
+[languages]
+  [languages.en]
+    title = 'Anthropocene Timeline'
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+    [languages.en.params]
+      languageShort = "EN"
+  [languages.fr]
+    title = "La ligne du temps de l'Anthropocène"
+    contentDir = "content/fr"
+    languageName = "Français"
+    weight = 2
+    [languages.fr.params]
+      languageShort = "FR"
+      [languages.fr.params.navigation]
+        help = 'Aide'
+  [languages.es]
+    title = 'La linea de tiempo del Anthropoceno'
+    contentDir = "content/es"
+    languageName = "Español"
+    weight = 3
+    [languages.es.params]
+      languageShort = "ES"
+
+disableKinds = ["taxonomy"]
