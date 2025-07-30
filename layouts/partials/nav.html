@@ -33,7 +33,9 @@
                 </a>
 
                 <div class="navbar-dropdown">
-                    <a class="navbar-item">
+                    
+                    {{ $papers := site.GetPage "sources/papers" }}
+                    <a class="navbar-item" href="{{ $papers.RelPermalink }}">
                     Papers
                     </a>
                     <a class="navbar-item">
