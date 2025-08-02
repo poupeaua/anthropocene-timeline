@@ -22,23 +22,7 @@ $(() => {
     }
 
     items.filter('.active').removeClass('active')
-    let activeItem = items.eq(active != -1 ? active : 0)
-    activeItem.addClass('active')
-
-    // Scroll the timeline nav
-    if (activeItem.length) {
-      let nav = timeline
-      let itemTop = activeItem.position().top
-      let itemHeight = activeItem.outerHeight()
-      let navHeight = nav.height()
-      let navScrollTop = nav.scrollTop()
-
-      if (itemTop < 0) {
-        nav.scrollTop(navScrollTop + itemTop)
-      } else if (itemTop + itemHeight > navHeight) {
-        nav.scrollTop(navScrollTop + itemTop - navHeight + itemHeight)
-      }
-    }
+    items.eq(active != -1 ? active : 0).addClass('active')
 	}).trigger('scroll')
 
 
@@ -62,21 +46,3 @@ $(() => {
 		}
 	})
 })
-
-// When the user scrolls the page, execute myFunction
-window.onscroll = function() {myFunction()};
-
-// Get the navbar
-var navbar = document.getElementById("scroll-timeline");
-
-// Get the offset position of the navbar
-var sticky = navbar.offsetTop;
-
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky")
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
