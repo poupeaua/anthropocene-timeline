@@ -11,16 +11,15 @@
     </div>
 </header>
 
-
 <!-- Timeline Section-->
-<section class="section" id="timeline">
+<section class="section bg-white text-secondary mb-0" id="timeline">
     <div class="container">
-        <!-- About Section Heading-->
+        <!-- About Section Heading-->x
         <h2 class="section-heading text-center text-uppercase">{{ $.Param "timeline.title" }}</h2>
         <!-- Icon Divider-->
-        <div class="">
+        <div class="divider-custom">
             <div class="divider-custom-line"></div>
-            <div class="has-text-warning"><i class="fas fa-star has-text-warning"></i>Test</div>
+            <div class="divider-custom-icon"><i class="bi bi-calendar2-week-fill"></i></div>
             <div class="divider-custom-line"></div>
         </div>
 
@@ -28,29 +27,21 @@
 
         <p class="text-center">{{ $.Param "timeline.citation" | markdownify }}</p>
 
-        <article class="timeline" id="scroll-timeline">
-        <div class="timeline-container">
-          <nav class="timeline__nav">
-            <ul>
+        <ul class="timeline" id="accordion">
             {{ range $index, $element := (where .Site.Pages "Type" "timelineEvent").ByParam "Order" }}
-              <li><span>{{ $element.Params.Year }}</span></li>
-            {{ end }}
-            </ul>
-          </nav>
-          <section class="timeline__section">
-            {{ range $index, $element := (where .Site.Pages "Type" "timelineEvent").ByParam "Order" }}
-            <div class="wrapper" x-data="{ expanded{{ .Params.id }}: false }">
-                <div class="timeline-content">
-                  <div class="" @click="expanded{{ .Params.id }} = ! expanded{{ .Params.id }}">
-                    <p class="milestone">{{ .Params.Year }}</p>
-                    <p class="">{{ .Title }}</p>
-                  </div>
-                  <div x-show="expanded{{ .Params.id }}" x-collapse.duration.500ms>
+            <li class="timeline-event">
+                <label class="timeline-event-icon"></label>
+                <div class="timeline-event-copy">
+                  <a class="button">
+                    <p class="timeline-event-thumbnail">{{ .Params.Year }}</p>
+                    <p class="timeline-event-title">{{ .Title }}</p>
+                  </a>
+                  <div id="{{ .Params.id }}" class="collapse">
                     <h3>{{ .Title }}</h3>
                     {{ .Content }}
                   </div>
                 </div>
-              </div>
+            </li>
             {{ end }}
         </ul>
     </div>

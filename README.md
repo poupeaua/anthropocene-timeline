@@ -2,6 +2,12 @@
 
 The objective of this website is to share the timeline of the Anthropocene.
 
+## UI Components Library
+
+We are now using Preline UI.
+
+https://preline.co/docs/frameworks-hugo.html
+
 ## Sections
 
 This website is divided into different sections :

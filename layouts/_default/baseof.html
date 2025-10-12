@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ .Language }}" data-theme="light">
   {{ partial "head.html" . }}
-  <body class="has-navbar-fixed-top">
+  <body>
     
     {{ partial "nav.html" . }}
+
+    {{ partial "hero.html" . }}
 
     {{ block "main" . }}
     {{ end }}
@@ -11,4 +13,7 @@
     {{ partial "footer.html" . }}
 
   </body>
+
+  {{ partial "scripts.html" . }}
+
 </html>
