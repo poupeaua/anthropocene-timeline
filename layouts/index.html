@@ -1,16 +1,60 @@
 {{ define "main" }}
 
-<!-- Background image -->
-<div
-  class="h-screen bg-cover bg-no-repeat"
-  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/city/018.jpg');">
+<div class="relative h-screen">
+  <div
+    class="absolute inset-0 bg-cover bg-no-repeat"
+    style="background-image: url(img/ecology/main/art-ipcc-curv.jpeg); background-size: cover; background-position: center;"></div>
 </div>
-<!-- Background image -->
 
+<!-- About Section Heading-->
+<div class="bg-white dark:bg-neutral-800 text-center text-gray-800 dark:text-white">
+  <h2 class="">{{ $.Param "timeline.title" }}</h2>
+
+  <p class="">{{ $.Param "timeline.intro" }}</p>
+
+  <p class="">{{ $.Param "timeline.citation" | markdownify }}</p>
+</div>
+
+<!-- Timeline -->
+<div class="bg-white dark:bg-neutral-800">
+
+    {{ range $index, $element := (where .Site.Pages "Type" "timelineEvent").ByParam "Order" }}
+
+    <!-- Item -->
+    <div class="flex gap-x-3">
+      <!-- Left Content -->
+      <div class="min-w-14 text-end">
+        <span class="text-xs text-gray-500 dark:text-neutral-400">{{ .Params.Year }}</span>
+      </div>
+      <!-- End Left Content -->
+
+      <!-- Icon -->
+      <div class="relative last:after:hidden after:absolute after:top-7 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700">
+        <div class="relative z-10 size-7 flex justify-center items-center">
+          <div class="size-2 rounded-full bg-gray-400 dark:bg-neutral-600"></div>
+        </div>
+      </div>
+      <!-- End Icon -->
+
+      <!-- Right Content -->
+      <div class="grow pt-0.5 pb-8">
+        <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+          {{ .Title }}
+        </h3>
+        <p class="mt-1 text-sm text-gray-600 dark:text-neutral-400">
+        </p>
+      </div>
+      <!-- End Right Content -->
+    </div>
+    <!-- End Item -->
+     {{ end }}
+     
+</div>
+<!-- End Timeline -->
 <!-- Timeline Section-->
-<section class="section bg-white text-secondary mb-0" id="timeline">
+<section class="bg-white text-secondary mb-0" id="timeline">
     <div class="container">
-        <!-- About Section Heading-->x
+        <!-- About Section Heading-->
         <h2 class="section-heading text-center text-uppercase">{{ $.Param "timeline.title" }}</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
