@@ -22,7 +22,16 @@
       {{ range $index, $element := (where .Site.Pages "Type" "timelineEvent").ByParam "Order" }}
 
       <!-- Item -->
-      <div class="flex gap-x-3 group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+      <div class="relative flex gap-x-3 group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+
+        <button type="button" class="hs-collapse-toggle absolute inset-0 w-full h-full rounded-lg
+           bg-transparent border-0 appearance-none
+           cursor-pointer z-10"
+          id="hs-basic-collapse"
+          aria-expanded="false"
+          aria-controls="hs-basic-collapse-heading{{ $index }}"
+          data-hs-collapse="#hs-basic-collapse-heading{{ $index }}">
+        </button>
 
         <!-- Left Content -->
         <div class="min-w-30 text-end">
@@ -43,9 +52,11 @@
           <h3 class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
             {{ .Title }}
           </h3>
-          <p class="mt-0 text-sm text-gray-600 dark:text-neutral-400">
-            <!-- {{ .Content }} -->
-          </p>
+          <div id="hs-basic-collapse-heading{{ $index }}" class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-collapse">
+            <div class="relative z-20 mt-7.5 mr-7 bg-white rounded-lg py-3 px-4 dark:bg-neutral-800 dark:text-white">
+              {{ .Content }} 
+            </div>
+          </div>
         </div>
         <!-- End Right Content -->
       </div>
