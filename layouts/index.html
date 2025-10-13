@@ -1,15 +1,11 @@
 {{ define "main" }}
 
-<header>
-    <div id="carouselExampleCaptions" class="">
-      <section class="hero is-fullheight" style="background: url('/img/ecology/carousel/art-ipcc-curv.jpeg') center center / cover no-repeat;">
-        <div class="hero">
-          <h5><a style="text-decoration: none;" href="https://www.jillpelto.com/currents/" target="_blank">{{ $.Param "carousel.carousel1.info" | markdownify }}</a></h5>
-          <p>{{ $.Param "carousel.carousel1.subinfo" }}</p>
-        </div>
-      </section>
-    </div>
-</header>
+<!-- Background image -->
+<div
+  class="h-screen bg-cover bg-no-repeat"
+  style="background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/city/018.jpg');">
+</div>
+<!-- Background image -->
 
 <!-- Timeline Section-->
 <section class="section bg-white text-secondary mb-0" id="timeline">

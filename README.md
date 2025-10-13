@@ -23,11 +23,21 @@ This website is divided into different sections :
 
 1. For quick development and see changes as you code:
 
+This is to update the main.css based on what is changed in tailwind.
+```
+npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/main.css --minify --watch
+```
+
+This is to update the website in Hugo in realtime:
 ```
 make local
 ```  
 
 2. For final tests to verify how it will be rendered in production:
+
+```
+npm build run
+```
 
 ```
 make preprod
