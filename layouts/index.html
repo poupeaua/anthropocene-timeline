@@ -17,26 +17,25 @@
 
 <!-- Timeline -->
 <div class="bg-white dark:bg-neutral-800">
-  <div class="justify-center mx-auto w-4/5">
+  <div class="hs-accordion-group justify-center sm:mx-auto sm:w-4/5">
 
       {{ range $index, $element := (where .Site.Pages "Type" "timelineEvent").ByParam "Order" }}
 
       <!-- Item -->
-      <div class="relative flex gap-x-3 group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10">
+      <div class="hs-accordion relative flex gap-x-0 group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" id="hs-accordion-item-{{ $index }}">
 
-        <button type="button" class="hs-collapse-toggle absolute inset-0 w-full h-full rounded-lg
+        <button type="button" class="hs-accordion-toggle absolute inset-0 w-full h-full rounded-lg
            bg-transparent border-0 appearance-none
            cursor-pointer z-10"
-          id="hs-basic-collapse"
+          id="hs-accordion-heading-{{ $index }}"
           aria-expanded="false"
-          aria-controls="hs-basic-collapse-heading{{ $index }}"
-          data-hs-collapse="#hs-basic-collapse-heading{{ $index }}">
+          aria-controls="hs-accordion-content-{{ $index }}">
         </button>
 
         <!-- Left Content -->
-        <div class="min-w-30 text-end">
+        <!-- <div class="min-w-30 text-end">
           <span class="text-xs text-gray-500 dark:text-neutral-400">{{ .Params.Year }}</span>
-        </div>
+        </div> -->
         <!-- End Left Content -->
 
         <!-- Icon -->
@@ -49,11 +48,11 @@
 
         <!-- Right Content -->
         <div class="grow pt-0.5 pb-8">
-          <div class="flex gap-x-1.5 font-semibold text-gray-800 dark:text-white">
+          <div class="flex font-semibold text-gray-800 dark:text-white">
             {{ .Title }}
           </div>
-          <div id="hs-basic-collapse-heading{{ $index }}" class="hs-collapse hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-basic-collapse">
-            <div class="relative z-20 mt-7.5 mr-7 bg-white rounded-lg py-3 px-4 dark:bg-neutral-800 dark:text-white">
+          <div id="hs-accordion-content-{{ $index }}" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-accordion-heading-{{ $index }}">
+            <div class="relative z-20 mt-7.5 mr-3 px-2 bg-white rounded-lg dark:bg-neutral-800 dark:text-white">
               {{ .Content }} 
             </div>
           </div>

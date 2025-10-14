@@ -38,8 +38,8 @@ local:
 	@echo "----------------------------------------------------------------------------------------------------------"
 	@echo "Testing the website in local for quick test with changes in code automatically applied in rendered website"
 	@echo "----------------------------------------------------------------------------------------------------------"
-	@echo "Deployed on port ${TEST_PORT}"
-	hugo server -D --baseURL ${LOCALHOST_URL}:${TEST_PORT}/
+	@echo "Deployed on port ${TEST_PORT} + enable binding to test on other interfaces"
+	hugo server -D --baseURL ${LOCALHOST_URL}:${TEST_PORT}/ --bind 0.0.0.0
 
 preprod:
 	@echo "----------------------------------------------------------------------------------------------------------"
