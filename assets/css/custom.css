@@ -21,3 +21,7 @@ h4 {
 p {
   @apply mb-4;
 }
+
+.text-link {
+  @apply text-blue-600 hover:text-blue-500 decoration-2 hover:underline focus:outline-hidden focus:underline opacity-90;
+}
