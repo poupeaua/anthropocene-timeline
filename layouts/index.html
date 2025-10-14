@@ -3,16 +3,16 @@
 <div class="relative h-screen bg-white dark:bg-neutral-800">
   <div
     class="absolute inset-0 bg-cover bg-no-repeat mask-b-from-80% mask-b-to-99%"
-    style="background-image: url(img/ecology/main/art-ipcc-curv.jpeg); background-size: cover; background-position: center;"></div>
+    style="background-image: url('{{ "img/ecology/main/art-ipcc-curv.jpeg" | relURL }}'); background-size: cover; background-position: center;"></div>
 </div>
 
 <!-- About Section Heading-->
 <div class="bg-white dark:bg-neutral-800 text-center text-gray-800 dark:text-white">
-  <h2 class="">{{ $.Param "timeline.title" }}</h2>
+  <h2æ>{{ $.Param "timeline.title" }}</h2>
 
-  <p class="">{{ $.Param "timeline.intro" }}</p>
+  <p>{{ $.Param "timeline.intro" }}</p>
 
-  <p class="">{{ $.Param "timeline.citation" | markdownify }}</p>
+  <p>{{ $.Param "timeline.citation" | markdownify }}</p>
 </div>
 
 <!-- Timeline -->
