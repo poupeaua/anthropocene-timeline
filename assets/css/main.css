@@ -3,6 +3,7 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @import "preline/variants.css";
+@import "./custom.css";
 @source "../../node_modules/preline/dist/*.js";
 
 /* Optional Preline UI Datepicker Plugin */
