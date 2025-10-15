@@ -3,12 +3,25 @@
 <div class="relative h-screen bg-white dark:bg-neutral-800">
   <div
     class="absolute inset-0 bg-cover bg-no-repeat mask-b-from-80% mask-b-to-99%"
-    style="background-image: url('{{ "img/ecology/main/art-ipcc-curv.jpeg" | relURL }}'); background-size: cover; background-position: center;"></div>
+    style="background-image: url('{{ "img/ecology/main/art-ipcc-curv.jpeg" | relURL }}'); background-size: cover; background-position: center;">
+  </div>
+
+  <!-- Bouncing arrow -->
+  <div class="relative flex top-11/12 animate-bounce justify-center text-neutral-800 dark:text-white">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+      class="bi bi-arrow-down-short"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 
+           3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 
+           10.293V4.5A.5.5 0 0 1 8 4" />
+    </svg>
+  </div>
 </div>
 
 <!-- About Section Heading-->
 <div class="bg-white dark:bg-neutral-800 text-center text-gray-800 dark:text-white">
-  <h2æ>{{ $.Param "timeline.title" }}</h2>
+  <h2>{{ $.Param "timeline.title" }}</h2>
 
   <p>{{ $.Param "timeline.intro" }}</p>
 
@@ -33,9 +46,9 @@
         </button>
 
         <!-- Left Content -->
-        <!-- <div class="min-w-30 text-end">
+        <div class="min-w-30 text-end">
           <span class="text-xs text-gray-500 dark:text-neutral-400">{{ .Params.Year }}</span>
-        </div> -->
+        </div>
         <!-- End Left Content -->
 
         <!-- Icon -->
@@ -52,7 +65,7 @@
             {{ .Title }}
           </div>
           <div id="hs-accordion-content-{{ $index }}" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-accordion-heading-{{ $index }}">
-            <div class="relative z-20 mt-7.5 mr-7 bg-white rounded-lg py-3 px-4 dark:bg-neutral-800 dark:text-white max-h-[70vh] overflow-y-auto">
+            <div class="relative z-20 mt-7.5 mr-3 bg-white rounded-lg py-3 px-4 dark:bg-neutral-800 dark:text-white max-h-[70vh] overflow-y-auto">
               {{ .Content }} 
             </div>
           </div>

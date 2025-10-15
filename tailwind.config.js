@@ -2,9 +2,9 @@
 
 module.exports = {
   content: [
-    './layouts/**/*.html',
-    './content/**/*.md',
-    './assets/**/*.js',
+    "./layouts/**/*.{html,js}",  // Hugo templates
+    "./content/**/*.{html,md}",  // Markdown or embedded HTML
+    "./assets/**/*.{html,js}",   // Assets with embedded Tailwind
     'node_modules/preline/dist/*.js'
   ],
   theme: {

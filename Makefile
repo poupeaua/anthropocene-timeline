@@ -38,6 +38,7 @@ local:
 	@echo "----------------------------------------------------------------------------------------------------------"
 	@echo "Testing the website in local for quick test with changes in code automatically applied in rendered website"
 	@echo "----------------------------------------------------------------------------------------------------------"
+	@echo "Beware: to allow full reload even on CSS and class modification run on another terminal"
 	@echo "Deployed on port ${TEST_PORT} + enable binding to test on other interfaces"
 	hugo server -D --baseURL ${LOCALHOST_URL}:${TEST_PORT}/ --bind 0.0.0.0
 
