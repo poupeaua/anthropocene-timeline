@@ -1,38 +1,4 @@
 <footer class="footer text-center">
-    <div>
-        <div class="row">
-            <!-- Footer Location-->
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <h4 class="text-uppercase mb-4">{{ i18n "footer.location"}}</h4>
-                <p class="lead mb-0">
-                    {{ .Site.Params.city }}
-                    <br />
-                    {{ .Site.Params.country }}
-                </p>
-            </div>
-            <!--#include file="/assets/html/footer.html" -->
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <h4 class="text-uppercase mb-4">{{ i18n "footer.aroundWeb"}}</h4>
-                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.linkedin.com/in/alexandre-poupeau-67a893133/{{ .Language }}"><i class="bi bi-linkedin"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://github.com/poupeaua"><i class="bi bi-github"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.youtube.com/channel/UC2V9OdXZX-Ws2cNOxduJ3SQ/?hl={{ .Language }}&persist_hl=1"><i class="bi bi-youtube"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://soundcloud.com/alexandre-poupeau-125921321"><i class="fab fa-soundcloud"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" target="_blank" href="https://www.instagram.com/alexandrepoupeau/?hl={{ .Language }}"><i class="bi bi-instagram"></i></a>
-            </div>
-
-            <!-- Footer About Text-->
-            <div class="col-lg-4">
-                <h4 class="text-uppercase mb-4">{{ i18n "footer.contactMe"}}</h4>
-                <!-- The text field -->
-                <div class="input-group mb-3">
-                    <input readonly type="text" class="form-control" value={{ .Site.Params.email }} placeholder="My email address" aria-label="Recipient's username" aria-describedby="basic-addon2" id="myInput">
-                    <button class="btn btn-outline-light" data-bs-toggle="popover" data-bs-placement="top" data-bs-content={{ i18n "footer.copiedToClipboard"}} onclick="clipboardcopy()">
-                        <i class="bi bi-clipboard-check"></i>
-                    </button>
-                </div>                
-            </div>
-        </div>
-    </div>
 
     <div class="copyright py-4 text-center text-neutral-800">
         <div>{{ .Site.Params.copyright }}</div>

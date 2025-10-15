@@ -54,23 +54,23 @@
         <!-- Icon -->
         <div class="relative last:after:hidden after:absolute after:top-0 after:bottom-0 after:start-3.5 after:w-px after:-translate-x-[0.5px] after:bg-gray-200 dark:after:bg-neutral-700 dark:group-hover:after:bg-neutral-600">
           <div class="relative z-10 size-7 flex justify-center items-center">
-          <div class="size-2 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-neutral-600"></div>
+          <div class="size-2.5 rounded-full bg-white border-2 border-gray-300 group-hover:border-gray-600 dark:bg-neutral-800 dark:border-neutral-600 dark:group-hover:border-white"></div>
           </div>
         </div>
         <!-- End Icon -->
 
         <!-- Right Content -->
-        <div class="py-7 pt-1">
-          <div class="flex items-center -mt-0.5">
-            <div class="sm:hidden font-semibold text-gray-800 dark:text-white mr-2">
-              <span class="inline-block items-center gap-x-1.5 py-1 px-2 rounded-md text-xs font-medium border border-gray-200 bg-neutral-800 text-white shadow-2xs dark:bg-white dark:border-neutral-700 dark:text-neutral-800">{{ .Params.Year }}</span>
+        <div class="py-9 pt-1">
+          <div class="flex -mt-0.5">
+            <div class="sm:hidden font-semibold text-gray-800 dark:text-white mr-2 -mt-0.5">
+              <span class="inline-flex items-center gap-x-1.5 py-1 px-2 rounded-md text-xs font-medium border border-gray-200 bg-neutral-800 text-white shadow-2xs dark:bg-white dark:border-neutral-700 dark:text-neutral-800">{{ .Params.Year }}</span>
             </div>
-            <div class="grow font-semibold text-gray-800 dark:text-white">
+            <div class="font-semibold text-gray-800 dark:text-white">
               {{ .Title }}
             </div>
           </div>
           <div id="hs-accordion-content-{{ $index }}" class="hs-accordion-content hidden w-full transition-[height] duration-300 overflow-hidden" aria-labelledby="hs-accordion-heading-{{ $index }}">
-            <div class=" relative z-20 py-3 mr-2 dark:text-white max-xl:max-h-[60vh] max-h-[70vh] overflow-y-auto">
+            <div class="relative z-20 py-3 mr-2 dark:text-white max-h-[60vh] overflow-y-auto">
               {{ .Content }} 
             </div>
           </div>

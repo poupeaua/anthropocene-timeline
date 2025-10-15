@@ -1,12 +1,12 @@
 baseURL = 'https://alexandrepoupeau.com/'
 languageCode = 'en-us'
-title = 'Anthropocene Timeline - Alexandre Poupeau Website'
+title = 'Anthropocene Timeline - Alexandre Poupeau'
 defaultContentLanguage = 'en'
 publishDir = 'docs'
 staticDir = 'static'
 
 [params]
-copyright = 'Copyright © Anthropocene Timeline - Alexandre Poupeau Website 2025'
+copyright = 'Copyright © 2025 - Anthropocene Timeline by Alexandre Poupeau'
 email = "alexandre.poupeau.contact@gmail.com"
 siteName = 'Anthropocene Timeline'
 [params.navigation]
