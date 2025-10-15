@@ -7,9 +7,9 @@
   </div>
 
   <!-- Bouncing arrow -->
-  <div class="relative flex top-11/12 animate-bounce justify-center text-neutral-800 dark:text-white">
+  <div class="absolute bottom-14 left-1/2 -ml-4 text-neutral-800 dark:text-white">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
-      class="bi bi-arrow-down-short"
+      class="bi bi-arrow-down-short animate-bounce"
       viewBox="0 0 16 16">
       <path fill-rule="evenodd"
         d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 
@@ -46,7 +46,7 @@
         </button>
 
         <!-- Left Content -->
-        <div class="min-w-30 text-end">
+        <div class="max-xl:hidden min-w-20 text-end">
           <span class="text-xs text-gray-500 dark:text-neutral-400">{{ .Params.Year }}</span>
         </div>
         <!-- End Left Content -->
@@ -60,12 +60,17 @@
         <!-- End Icon -->
 
         <!-- Right Content -->
-        <div class="grow pt-0.5 pb-8">
-          <div class="flex font-semibold text-gray-800 dark:text-white">
-            {{ .Title }}
+        <div class="py-7 pt-1">
+          <div class="flex items-center -mt-0.5">
+            <div class="sm:hidden font-semibold text-gray-800 dark:text-white mr-2">
+              <span class="inline-block items-center gap-x-1.5 py-1 px-2 rounded-md text-xs font-medium border border-gray-200 bg-neutral-800 text-white shadow-2xs dark:bg-white dark:border-neutral-700 dark:text-neutral-800">{{ .Params.Year }}</span>
+            </div>
+            <div class="grow font-semibold text-gray-800 dark:text-white">
+              {{ .Title }}
+            </div>
           </div>
-          <div id="hs-accordion-content-{{ $index }}" class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300" aria-labelledby="hs-accordion-heading-{{ $index }}">
-            <div class="relative z-20 mt-7.5 mr-3 bg-white rounded-lg py-3 px-4 dark:bg-neutral-800 dark:text-white max-h-[70vh] overflow-y-auto">
+          <div id="hs-accordion-content-{{ $index }}" class="hs-accordion-content hidden w-full transition-[height] duration-300 overflow-hidden" aria-labelledby="hs-accordion-heading-{{ $index }}">
+            <div class=" relative z-20 py-3 mr-2 dark:text-white max-xl:max-h-[60vh] max-h-[70vh] overflow-y-auto">
               {{ .Content }} 
             </div>
           </div>
