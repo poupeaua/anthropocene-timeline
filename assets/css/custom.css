@@ -37,6 +37,6 @@ p {
 
 /* When scrolled past hero (make opaque) */
 .navbar.scrolled {
-  @apply ;
+  @apply backdrop-blur-sm;
 }
 

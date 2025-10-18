@@ -6,7 +6,7 @@ publishDir = 'docs'
 staticDir = 'static'
 
 [params]
-copyright = 'Copyright © 2025 - Anthropocene Timeline by Alexandre Poupeau'
+copyright = '© 2025 Anthropocene Timeline by Alexandre Poupeau'
 email = "alexandre.poupeau.contact@gmail.com"
 siteName = 'Anthropocene Timeline'
 [params.navigation]
