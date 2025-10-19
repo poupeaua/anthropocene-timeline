@@ -1,8 +1,63 @@
 {{ define "main" }}
 
-<h1>
-    This is the Contributing page for {{ .Site.Title }}.
-    {{ .Title }}
-</h1>
+<!-- Contribute Page -->
+<section class="max-w-5xl mx-auto p-6 space-y-12">
+
+  <!-- Header -->
+  <header class="text-center space-y-3">
+    <h1 class="text-4xl font-bold">Contribute</h1>
+    <p class="text-gray-600">Help us grow! Add content, join the community, and make a difference.</p>
+  </header>
+
+  <!-- Add Content Section -->
+  <section id="add-content" class="bg-white p-6 rounded-2xl shadow-md space-y-4">
+    <h2 class="text-2xl font-semibold">Add Content</h2>
+    <p class="text-gray-600">Follow these steps to contribute content to our platform:</p>
+    
+    <ol class="list-decimal list-inside space-y-2 text-gray-700">
+      <li>Fork our repository or use the content submission form.</li>
+      <li>Follow the provided templates and style guidelines.</li>
+      <li>Submit a pull request or upload your content for review.</li>
+      <li>Once approved, your content will be live!</li>
+    </ol>
+
+    <a href="#content-guidelines" class="inline-block px-5 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+      View Guidelines
+    </a>
+  </section>
+
+  <!-- Join Community Section -->
+  <section id="community" class="bg-gray-50 p-6 rounded-2xl shadow-md space-y-4">
+    <h2 class="text-2xl font-semibold">Join the Community</h2>
+    <p class="text-gray-600">Get involved, share ideas, and collaborate with other contributors:</p>
+    
+    <ul class="space-y-2 text-gray-700">
+      <li>💬 Join our chat platform or forum.</li>
+      <li>🤝 Participate in review sessions or events.</li>
+      <li>⭐ Follow contribution etiquette and guidelines.</li>
+      <li>📢 Help spread the word and welcome new members.</li>
+    </ul>
+
+    <div class="flex flex-wrap gap-3 mt-4">
+      <a href="#forum" class="px-5 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition">
+        Go to Forum
+      </a>
+      <a href="#chat" class="px-5 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition">
+        Join Chat
+      </a>
+    </div>
+  </section>
+
+  <!-- Resources / Links -->
+  <section id="resources" class="bg-white p-6 rounded-2xl shadow-md space-y-4">
+    <h2 class="text-2xl font-semibold">Resources</h2>
+    <ul class="space-y-2 text-gray-700">
+      <li><a href="#faq" class="text-blue-600 hover:underline">FAQ & Tips</a></li>
+      <li><a href="#templates" class="text-blue-600 hover:underline">Content Templates</a></li>
+      <li><a href="#contact" class="text-blue-600 hover:underline">Contact & Support</a></li>
+    </ul>
+  </section>
+
+</section>
 
 {{ end }}

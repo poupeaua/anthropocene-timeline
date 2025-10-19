@@ -35,7 +35,7 @@
       {{ range $index, $element := (where .Site.Pages "Type" "timelineEvent").ByParam "Order" }}
 
       <!-- Item -->
-      <div class="hs-accordion relative flex gap-x-0 group rounded-lg hover:bg-gray-100 dark:hover:bg-white/10" id="hs-accordion-item-{{ $index }}">
+      <div class="hs-accordion relative flex gap-x-0 group rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700" id="hs-accordion-item-{{ $index }}">
 
         <button type="button" class="hs-accordion-toggle absolute inset-0 w-full h-full rounded-lg
            bg-transparent border-0 appearance-none

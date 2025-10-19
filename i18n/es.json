@@ -1,21 +1,10 @@
 {
-    "footer": {
-       "location": {
-           "other": "Ubicación"
-       },
-       "aroundWeb": {
-           "other": "En el Internet"
-       },
-       "contactMe": {
-           "other": "Contáctame"
-       },
-       "copiedToClipboard": {
-            "other": "¡Copiado al portapapeles!"
-       }
-    },
-    "nav": {
-        "menu": {
-            "other": "Menú"
+    "copiedToClipboard": {
+        "hover": {
+            "other": "Copiar"
+        },
+        "success": {
+            "other": "Copiado"
         }
     }
- }
+}

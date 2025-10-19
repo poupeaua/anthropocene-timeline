@@ -1,21 +1,10 @@
 {
-    "footer": {
-       "location": {
-           "other": "Localisation"
-       },
-       "aroundWeb": {
-           "other": "Autour du Web"
-       },
-       "contactMe": {
-           "other": "Contactez-moi"
-       },
-       "copiedToClipboard": {
-            "other": "Copié dans le presse-papier!"
-       }
-    },
-    "nav": {
-        "menu": {
-            "other": "Menu"
+    "copiedToClipboard": {
+        "hover": {
+            "other": "Copier"
+        },
+        "success": {
+            "other": "Copié dans le presse-papier!"        
         }
     }
- }
+}
