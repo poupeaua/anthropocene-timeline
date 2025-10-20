@@ -1,11 +1,11 @@
 ---
 Title: The Psychology of Climate Change Communication
-Subtitle: Center for Research on Environmental Decisions - 2009
+author: Center for Research on Environmental Decisions
+yearPublication: 2009
 Type: "book"
 Tags: ["climate change", "psychology"]
 TagsLanguages: ["english"]
 img: /img/ecology/biblio/psychologyofclimatechangecommunication.png
-hidden: true
 link: "http://guide.cred.columbia.edu/pdfs/CREDguide_full-res.pdf"
 ---
 

@@ -1,6 +1,8 @@
 ---
 Title: Preocúpate. Preocúpate mucho.
-Subtitle:  Time Magazine - 2006
+editor:  Time Magazine
+yearPublication: 2006
+type: "article"
 Tags: ["cambio climático"]
 TagsLanguages: ["inglés"]
 img: /img/ecology/biblio/beworriedbeveryworried.jpg

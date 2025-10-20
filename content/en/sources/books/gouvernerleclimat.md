@@ -1,11 +1,11 @@
 ---
 Title: Gouverner le Climat
-Subtitle: Stefan C. Aykut & Amy Dahan - 2014
+author: Stefan C. Aykut & Amy Dahan
+yearPublication: 2014
 Type: "book"
 Tags: ["climate change", "politics"]
 TagsLanguages: ["french"]
 img: /img/ecology/biblio/gouvernerleclimat.jpg
-hidden: true
 link: "https://www.google.fr/books/edition/Gouverner_le_climat/xkrWBgAAQBAJ?hl=fr&gbpv=1&printsec=frontcover"
 ---
 

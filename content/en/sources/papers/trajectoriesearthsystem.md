@@ -1,11 +1,11 @@
 ---
 Title: Trajectories of the Earth System
-Subtitle: Proceedings of the National academy of Sciences - 2018
-Type: "book"
+editor: Proceedings of the National academy of Sciences
+yearPublication: 2018
+Type: "paper"
 Tags: ["systemic", "climate change"]
 TagsLanguages: ["english"]
 img: /img/ecology/biblio/trajectoriesearthsystem.webp
-hidden: true
 link: "https://www.pnas.org/doi/epdf/10.1073/pnas.1810141115"
 ---
 

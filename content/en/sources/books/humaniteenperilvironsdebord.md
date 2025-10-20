@@ -1,6 +1,7 @@
 ---
 Title: L'Humanité en péril
-Subtitle: Fred Vargas - 2019
+author: Fred Vargas
+yearPublication: 2019
 Type: "book"
 Tags: ["systemic"]
 TagsLanguages: ["french"]

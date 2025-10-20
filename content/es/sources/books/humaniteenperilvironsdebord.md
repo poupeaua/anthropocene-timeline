@@ -1,6 +1,7 @@
 ---
 Title: La humanidad en peligro
-Subtitle: Fred Vargas - 2019
+author: Fred Vargas
+yearPublication: 2019
 Type: "book"
 Tags: ["sistémico"]
 TagsLanguages: ["francés"]

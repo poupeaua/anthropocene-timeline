@@ -1,6 +1,7 @@
 ---
 Title: The Unhabitable Earth
-Subtitle: David Wallace - 2019
+author: David Wallace
+yearPublication: 2019
 Type: "book"
 Tags: ["systemic", "climate change"]
 TagsLanguages: ["english"]

@@ -1,11 +1,11 @@
 ---
 Title: Frente al colapso
-Subtitle: Yves Cochet - 2019
+author: Yves Cochet
+yearPublication: 2019
 Type: "book"
 Tags: ["sistémico"]
 TagsLanguages: ["francés"]
 img: /img/ecology/biblio/devantleffondrement.jpg
-hidden: true
 link: "https://www.google.fr/books/edition/Devant_l_effondrement/nEewDwAAQBAJ?hl=fr&gbpv=1&printsec=frontcover"
 ---
 

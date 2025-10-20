@@ -1,6 +1,7 @@
 ---
 Title: Earthmasters
-Subtitle: Clive Hamilton - 2013
+author: Clive Hamilton
+yearPublication: 2013
 Type: "book"
 Tags: ["cambio climático", "sistémico"]
 TagsLanguages: ["inglés"]

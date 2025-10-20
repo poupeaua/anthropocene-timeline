@@ -1,26 +1,5 @@
 {{ define "main" }}
-<div class="container">
-    <h1 class="text-center">{{ .Title }}</h1>
-    <div class="row">
-        {{ range .Pages }}
-        {{ $page := . }}
-        <div class="col-md-6 col-lg-4 mb-4">
-            <div class="card h-100">
-                {{ with .Params.img }}
-                <a href="{{ $page.Params.link }}" target="_blank" rel="noopener noreferrer">
-                    <img src="{{ . }}" class="card-img-top" alt="{{ $page.Title }}">
-                </a>
-                {{ end }}
-                <div class="card-body">
-                    <h5 class="card-title"><a href="{{ .Params.link }}" target="_blank" rel="noopener noreferrer">{{ .Title }}</a></h5>
-                    {{ with .Params.Subtitle }}
-                    <h6 class="card-subtitle mb-2 text-muted">{{ . }}</h6>
-                    {{ end }}
-                    <p class="card-text">{{ .Summary }}</p>
-                </div>
-            </div>
-        </div>
-        {{ end }}
-    </div>
-</div>
+
+{{ partial "sources.html" . }}
+
 {{ end }}

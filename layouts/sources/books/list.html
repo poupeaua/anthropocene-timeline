@@ -1,57 +1,5 @@
 {{ define "main" }}
-<div class="w-2/3 mx-auto mt-24">
 
-    <!-- Masonry Grid of Modal Triggers -->
-    <div class="columns-2 md:columns-3 lg:columns-4 gap-4">
-        {{ range .Pages }}
-        {{ $page := . }}
-        <div class="mb-4 break-inside-avoid">
-            <button type="button" class="w-full" data-hs-overlay="#hs-book-modal-{{ $page.File.UniqueID }}">
-                {{ with $page.Params.img }}
-                <img class="w-full h-auto rounded-xl shadow-sm cursor-pointer" src="{{ . }}" alt="{{ $page.Title }}">
-                {{ end }}
-            </button>
-        </div>
-        {{ end }}
-    </div>
+{{ partial "sources.html" . }}
 
-    <!-- Modals -->
-    {{ range .Pages }}
-    {{ $page := . }}
-    <div id="hs-book-modal-{{ $page.File.UniqueID }}" class="hs-overlay hidden size-full fixed top-0 start-0 z-[80] overflow-x-hidden overflow-y-auto">
-      <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 h-[calc(100%-56px)] sm:mx-auto">
-        <div class="max-h-full overflow-hidden flex flex-col bg-white border shadow-sm rounded-xl pointer-events-auto border-gray-200 dark:border-neutral-700 dark:bg-neutral-800">
-          <div class="flex justify-between items-start mt-3 px-4 border-b border-gray-200 dark:border-neutral-700">
-            <h3 class="font-bold text-gray-800 dark:text-white">
-              {{ $page.Title }}
-            </h3>
-            <button type="button" class="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-600" data-hs-overlay="#hs-book-modal-{{ $page.File.UniqueID }}">
-              <span class="sr-only">Close</span>
-              <svg class="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-            </button>
-          </div>
-          <div class="p-4 overflow-y-auto">
-            {{ with $page.Params.img }}
-            <img class="w-full h-auto rounded-xl mb-4" src="{{ . }}" alt="{{ $page.Title }}">
-            {{ end }}
-            {{ with $page.Params.Subtitle }}
-            <h4 class="text-md font-medium text-gray-500 mb-2">{{ . }}</h4>
-            {{ end }}
-            <p class="mt-1 text-gray-800 dark:text-neutral-400">
-              {{ $page.Summary }}
-            </p>
-          </div>
-          <div class="flex justify-end items-center gap-x-2 py-3 px-4 border-t border-gray-200 dark:border-neutral-700">
-            <button type="button" class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-900 dark:border-neutral-700 dark:text-white dark:hover:bg-neutral-800" data-hs-overlay="#hs-book-modal-{{ $page.File.UniqueID }}">
-              Close
-            </button>
-            <a class="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none" href="{{ $page.Params.link }}" target="_blank" rel="noopener noreferrer">
-              Learn More
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    {{ end }}
-</div>
 {{ end }}

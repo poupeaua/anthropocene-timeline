@@ -1,11 +1,11 @@
 ---
 Title: Trayectorias del sistema terrestre
-Subtitle: Proceedings of the National academy of Sciences - 2018
+author: Proceedings of the National academy of Sciences
+yearPublication: 2018
 Type: "book"
 Tags: ["sistémico", "cambio climático"]
 TagsLanguages: ["inglés"]
 img: /img/ecology/biblio/trajectoriesearthsystem.webp
-hidden: true
 link: "https://www.pnas.org/doi/epdf/10.1073/pnas.1810141115"
 ---
 

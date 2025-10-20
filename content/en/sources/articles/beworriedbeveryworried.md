@@ -1,6 +1,9 @@
 ---
 Title: Be Worried. Be Very Worried.
-Subtitle:  Time Magazine - 2006
+author: Jeffrey Kluger
+editor: Time Magazine
+yearPublication: 2006
+type: "article"
 Tags: ["climate change"]
 TagsLanguages: ["english"]
 img: /img/ecology/biblio/beworriedbeveryworried.jpg

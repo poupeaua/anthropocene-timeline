@@ -1,7 +1,8 @@
 ---
 Title:  ¿Estamos al borde de un pronunciado Calentamiento Global
-Subtitle: Science - 1975
-Type: "book"
+editor: Science
+yearPublication: 1975
+Type: "paper"
 Tags: ["cambio climático"]
 TagsLanguages: ["inglés"]
 img: /img/ecology/biblio/areweonthebrinkofapronuncedglobalwarming.jpg

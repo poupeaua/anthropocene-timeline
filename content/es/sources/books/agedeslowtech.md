@@ -1,11 +1,11 @@
 ---
 Title: La era de la baja tecnología
-Subtitle: Philippe Bihouix - 2014
+author: Philippe Bihouix
+yearPublication: 2014
 Type: "book"
 Tags: ["sistémico", "metales"]
 TagsLanguages: ["francés"]
 img: /img/ecology/biblio/agedeslowtech.jpg
-hidden: true
 link: "https://www.google.fr/books/edition/L_%C3%82ge_des_low_tech_Vers_une_civilisatio/W5-jAwAAQBAJ?hl=fr&gbpv=1&printsec=frontcover"
 ---
 

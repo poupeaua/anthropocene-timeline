@@ -1,6 +1,7 @@
 ---
 Title: Merchants of Doubt
-Subtitle: Naomi Oreskes & Erik M. Conway - 2015
+author: Naomi Oreskes & Erik M. Conway
+yearPublication: 2015
 Type: "book"
 Tags: ["climate change", "psychology", "politics"]
 TagsLanguages: ["english", "french"]
