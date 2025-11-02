@@ -1,5 +1,5 @@
 ---
-Title:  ¿Estamos al borde de un pronunciado Calentamiento Global
+Title:  ¿Estamos al borde de un pronunciado Calentamiento Global?
 editor: Science
 yearPublication: 1975
 Type: "paper"
