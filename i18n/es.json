@@ -1,10 +1,51 @@
 {
+    "navbar": {
+        "home": {
+            "other": "Inicio"
+        },
+        "sources": {
+            "main": {
+                "other": "Fuentes"
+            },
+            "papers": {
+                "other": "Artículos Académicos"
+            },
+            "books": {
+                "other": "Libros"
+            },
+            "secondary": {
+                "main":{
+                    "other": "Medios"
+                },
+                "articles": {
+                    "other": "Artículos Periodístico"
+                },
+                "videos": {
+                    "other": "Vídeos"
+                },
+                "musics": {
+                    "other": "Música"
+                }
+            }
+        },
+        "contribute": {
+            "other": "Contribuir"
+        },
+        "about": {
+            "other": "Sobre"
+        }
+    },
     "copiedToClipboard": {
         "hover": {
             "other": "Copiar"
         },
         "success": {
             "other": "Copiado"
+        }
+    },
+    "footer": {
+        "contact": {
+            "other": "¿Te interesa el proyecto? ¡Ponte en contacto conmigo!"
         }
     }
 }

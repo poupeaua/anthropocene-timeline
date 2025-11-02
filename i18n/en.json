@@ -1,4 +1,40 @@
 {
+    "navbar": {
+        "home": {
+            "other": "Home"
+        },
+        "sources": {
+            "main": {
+                "other": "Sources"
+            },
+            "papers": {
+                "other": "Papers"
+            },
+            "books": {
+                "other": "Books"
+            },
+            "secondary": {
+                "main":{
+                    "other": "Medias"
+                },
+                "articles": {
+                    "other": "Articles"
+                },
+                "videos": {
+                    "other": "Videos"
+                },
+                "musics": {
+                    "other": "Musics"
+                }
+            }
+        },
+        "contribute": {
+            "other": "Contribute"
+        },
+        "about": {
+            "other": "About"
+        }
+    },
     "copiedToClipboard": {
         "hover": {
             "other": "Copy"
@@ -6,5 +42,10 @@
         "success": {
             "other": "Copied"
         }
+    },
+    "footer": {
+        "contact": {
+            "other": "Interested in the project? Let's get in touch!"
+        }
     }
- }
+}

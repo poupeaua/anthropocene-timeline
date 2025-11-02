@@ -2,7 +2,7 @@
 Title: Trayectorias del sistema terrestre
 author: Proceedings of the National academy of Sciences
 yearPublication: 2018
-Type: "book"
+Type: "paper"
 Tags: ["sistémico", "cambio climático"]
 TagsLanguages: ["inglés"]
 img: /img/ecology/biblio/trajectoriesearthsystem.webp

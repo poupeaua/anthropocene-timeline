@@ -1,10 +1,51 @@
 {
+    "navbar": {
+        "home": {
+            "other": "Accueil"
+        },
+        "sources": {
+            "main": {
+                "other": "Sources"
+            },
+            "papers": {
+                "other": "Articles Scientifiques"
+            },
+            "books": {
+                "other": "Livres"
+            },
+            "secondary": {
+                "main":{
+                    "other": "Médias"
+                },
+                "articles": {
+                    "other": "Articles de presse"
+                },
+                "videos": {
+                    "other": "Vidéos"
+                },
+                "musics": {
+                    "other": "Musique"
+                }
+            }
+        },
+        "contribute": {
+            "other": "Contribuer"
+        },
+        "about": {
+            "other": "À propos"
+        }
+    },
     "copiedToClipboard": {
         "hover": {
             "other": "Copier"
         },
         "success": {
             "other": "Copié dans le presse-papier!"        
+        }
+    },
+    "footer": {
+        "contact": {
+            "other": "Intéressé par le projet? Contactez-moi!"
         }
     }
 }

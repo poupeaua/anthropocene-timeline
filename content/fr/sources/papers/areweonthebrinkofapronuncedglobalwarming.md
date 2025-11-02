@@ -1,11 +1,11 @@
 ---
 Title: Sommes-nous à la veille d'un réchauffement climatique prononcé ?
-Subtitle: Science - 1975
-Type: "book"
+editor: Science
+yearPublication: 1975
+Type: "paper"
 Tags: ["déréglement climatique"]
 TagsLanguages: ["anglais"]
 img: /img/ecology/biblio/areweonthebrinkofapronuncedglobalwarming.jpg
-hidden: true
 link: "https://news.climate.columbia.edu/files/2009/10/broeckerglobalwarming75.pdf"
 ---
 

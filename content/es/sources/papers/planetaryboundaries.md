@@ -2,7 +2,7 @@
 Title: Límites Planetarios
 editor: Science
 yearPublication: 2023
-Type: "book"
+Type: "paper"
 Tags: ["sistémico", "cambio climático"]
 TagsLanguages: ["inglés"]
 img: /img/ecology/biblio/planetaryboundaries2023.jpg
