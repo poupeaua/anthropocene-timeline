@@ -47,5 +47,16 @@
         "contact": {
             "other": "¿Te interesa el proyecto? ¡Ponte en contacto conmigo!"
         }
+    },
+    "general": {
+        "editor": {
+            "other": "Editor"
+        },
+        "author": {
+            "other": "Autor"
+        },
+        "yearPublication": {
+            "other": "Año de publicación"
+        }
     }
 }

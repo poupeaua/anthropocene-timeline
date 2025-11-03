@@ -1,13 +1,13 @@
 <div class="w-2/3 mx-auto mt-24">
 
     <!-- Masonry Grid of Modal Triggers -->
-    <div class="columns-2 md:columns-3 lg:columns-4 gap-4">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {{ range sort .Pages "Params.yearPublication" "desc" }}
         {{ $page := . }}
-        <div class="mb-4 break-inside-avoid transform transition-transform duration-300 ease-in-out hover:scale-105">
-            <button type="button" class="w-full group" data-hs-overlay="#hs-book-modal-{{ $page.File.BaseFileName }}">
+        <div class="mb-4 transform transition-transform duration-300 ease-in-out hover:scale-105">
+            <button type="button" class="w-full flex flex-col justify-center group" data-hs-overlay="#hs-book-modal-{{ $page.File.BaseFileName }}">
                 {{ with $page.Params.img }}
-                <img class="w-full h-auto rounded-xl shadow-sm cursor-pointer transform transition-shadow duration-300 ease-in-out group-hover:shadow-lg" src="{{ . }}" alt="{{ $page.Title }}">
+                <img class="w-fill h-auto object-cover rounded-xl shadow-sm cursor-pointer transform transition-shadow duration-300 ease-in-out group-hover:shadow-lg" src="{{ . }}" alt="{{ $page.Title }}">
                 {{ if eq $page.Type "paper" }}
                 <div class="mt-2 text-center">
                     <h5 class="text-md font-semibold text-gray-800 dark:text-white">
@@ -41,13 +41,13 @@
             <img class="w-full h-auto rounded-xl mb-4" src="{{ . }}" alt="{{ $page.Title }}">
             {{ end }}
             {{ with $page.Params.editor }}
-            <h4 class="text-md font-medium text-gray-500 mb-0">Editor: {{ . }}</h4>
+            <h4 class="text-md font-medium text-gray-500 mb-0">{{ i18n "general.editor" }}: {{ . }}</h4>
             {{ end }}
             {{ with $page.Params.author }}
-            <h4 class="text-md font-medium text-gray-500 mb-0">Author: {{ . }}</h4>
+            <h4 class="text-md font-medium text-gray-500 mb-0">{{ i18n "general.author" }}: {{ . }}</h4>
             {{ end }}
             {{ with $page.Params.yearPublication }}
-            <p class="text-md font-medium text-gray-500 mb-0">Year of Publication: {{ . }}</p>
+            <p class="text-md font-medium text-gray-500 mb-0">{{ i18n "general.yearPublication" }}: {{ . }}</p>
             {{ end }}
             <p class="mt-1 text-gray-800 dark:text-neutral-400">
               {{ $page.Summary }}
