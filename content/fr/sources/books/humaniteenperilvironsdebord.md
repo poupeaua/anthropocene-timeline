@@ -1,5 +1,6 @@
 ---
 Title: L'Humanité en péril
+originalTitle: Humanité en péril
 author: Fred Vargas
 yearPublication: 2019
 Type: "book"

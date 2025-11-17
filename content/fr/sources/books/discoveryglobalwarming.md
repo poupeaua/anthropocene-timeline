@@ -1,5 +1,6 @@
 ---
 Title: La découverte du réchauffement de la planète
+originalTitle: The Discovery of Global Warming
 author: Spencer R. Weart
 yearPublication: 2003
 Type: "book"

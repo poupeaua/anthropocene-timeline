@@ -1,5 +1,6 @@
 ---
-Title: L'Age des Low Tech
+Title: L'Âge des Low Tech
+originalTitle: L'Âge des Low Tech
 author: Philippe Bihouix
 yearPublication: 2014
 Type: "book"

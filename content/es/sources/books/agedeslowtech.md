@@ -1,5 +1,6 @@
 ---
 Title: La era de la baja tecnología
+originalTitle: L'Âge des Low Tech
 author: Philippe Bihouix
 yearPublication: 2014
 Type: "book"

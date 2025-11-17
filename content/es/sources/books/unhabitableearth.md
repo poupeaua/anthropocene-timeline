@@ -1,5 +1,6 @@
 ---
-Title: El Planeta Inhóspito 
+Title: El Planeta Inhóspito
+originalTitle: The Unhabitable Earth
 author: David Wallace
 yearPublication: 2019
 Type: "book"

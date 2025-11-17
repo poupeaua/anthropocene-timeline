@@ -1,5 +1,6 @@
 ---
 Title: Approching a State Shift in Earth Biosphere
+originalTitle: Approching a State Shift in Earth Biosphere
 editor: Nature
 yearPublication: 2012
 Type: "paper"

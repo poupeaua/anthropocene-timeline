@@ -1,5 +1,6 @@
 ---
 Title: Los límites del crecimiento
+originalTitle: The Limits to Growth
 author: Dennis Meadows, Donella Meadows and Jørgen Randers
 yearPublication: 1972
 Type: "book"

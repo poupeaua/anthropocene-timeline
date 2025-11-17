@@ -1,5 +1,6 @@
 ---
 Title: Why Climat Change does not Scare Us Yet ?
+originalTitle: Why Climat Change does not Scare Us Yet ?
 editor: Center for Research on Environmental Decisions
 yearPublication: 2006
 Type: "paper"

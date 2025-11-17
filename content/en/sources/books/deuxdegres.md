@@ -1,5 +1,6 @@
 ---
-Title: Deux Degrés
+Title: Two Degrees
+originalTitle: Deux Degrés
 author: Edwin Zaccai
 yearPublication: 2019
 Type: "book"

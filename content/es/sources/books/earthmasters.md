@@ -1,5 +1,6 @@
 ---
-Title: Earthmasters
+Title: Maestros de la Tierra
+originalTitle: Earthmasters
 author: Clive Hamilton
 yearPublication: 2013
 Type: "book"

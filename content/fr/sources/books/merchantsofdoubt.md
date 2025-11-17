@@ -1,5 +1,6 @@
 ---
 Title: Les Marchands de doute
+originalTitle: Merchants of Doubt
 author: Naomi Oreskes & Erik M. Conway
 yearPublication: 2015
 Type: "book"

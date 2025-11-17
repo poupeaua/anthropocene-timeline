@@ -1,5 +1,6 @@
 ---
 Title:  ¿Estamos al borde de un pronunciado Calentamiento Global?
+originalTitle: Are we on the brink of a pronunced Global Warming
 editor: Science
 yearPublication: 1975
 Type: "paper"

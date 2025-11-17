@@ -1,5 +1,6 @@
 ---
 Title: Vers un changement d'état de la biosphère terrestre
+originalTitle: Approaching a State Shift in Earth Biosphere
 editor: Nature
 yearPublication: 2012
 Type: "paper"

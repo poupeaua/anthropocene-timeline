@@ -1,5 +1,6 @@
 ---
 Title: Informes del IPCC
+originalTitle: IPCC reports
 editor: Intergovernmental Panel on Climate Change (IPCC)
 Type: "paper"
 Tags: ["cambio climático", "política"]

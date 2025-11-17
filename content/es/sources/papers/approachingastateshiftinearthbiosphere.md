@@ -1,5 +1,6 @@
 ---
 Title: Enfoque sobre un cambio de estado en la biosfera terrestre
+originalTitle: Approaching a State Shift in Earth Biosphere
 editor: Nature
 yearPublication: 2012
 Type: "paper"

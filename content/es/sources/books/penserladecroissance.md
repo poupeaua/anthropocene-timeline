@@ -1,5 +1,6 @@
 ---
 Title: Pensar en el decrecimiento
+originalTitle: Penser la décroissance
 author: Agnès Sinaï
 yearPublication: 2013
 Type: "book"

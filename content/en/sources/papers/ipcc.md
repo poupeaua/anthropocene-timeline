@@ -1,5 +1,6 @@
 ---
 Title: IPCC reports
+originalTitle: IPCC reports
 editor: Intergovernmental Panel on Climate Change (IPCC)
 yearPublication:
 Type: "paper"

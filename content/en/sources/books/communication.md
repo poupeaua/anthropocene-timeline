@@ -1,5 +1,6 @@
 ---
 Title: The Psychology of Climate Change Communication
+originalTitle: The Psychology of Climate Change Communication
 author: Center for Research on Environmental Decisions
 yearPublication: 2009
 Type: "book"

@@ -1,5 +1,6 @@
 ---
 Title: Be Worried. Be Very Worried.
+originalTitle: Be Worried. Be Very Worried.
 author: Jeffrey Kluger
 editor: Time Magazine
 yearPublication: 2006

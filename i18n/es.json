@@ -52,6 +52,9 @@
         "close": {
             "other": "Cerrar"
         },
+        "originalTitle": {
+            "other": "Título original"
+        },
         "editor": {
             "other": "Editor"
         },

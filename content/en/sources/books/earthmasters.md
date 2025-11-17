@@ -1,5 +1,6 @@
 ---
 Title: Earthmasters
+originalTitle: Earthmasters
 author: Clive Hamilton
 yearPublication: 2013
 Type: "book"

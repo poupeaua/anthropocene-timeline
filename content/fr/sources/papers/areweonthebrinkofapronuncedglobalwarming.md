@@ -1,5 +1,6 @@
 ---
 Title: Sommes-nous à la veille d'un réchauffement climatique prononcé ?
+originalTitle: Are we on the brink of a pronunced Global Warming
 editor: Science
 yearPublication: 1975
 Type: "paper"

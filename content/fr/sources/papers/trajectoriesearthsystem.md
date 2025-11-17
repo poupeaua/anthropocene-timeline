@@ -1,5 +1,6 @@
 ---
 Title: Les Trajectoires du Système Terre
+originalTitle: Trajectories of the Earth System
 author: Proceedings of the National academy of Sciences
 yearPublication: 2018
 Type: "paper"

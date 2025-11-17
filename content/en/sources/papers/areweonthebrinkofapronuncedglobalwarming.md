@@ -1,5 +1,6 @@
 ---
 Title: Are we on the brink of a pronunced Global Warming
+originalTitle: Are we on the brink of a pronunced Global Warming
 editor: Science
 yearPublication: 1975
 Type: "paper"

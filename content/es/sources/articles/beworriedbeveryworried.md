@@ -1,5 +1,6 @@
 ---
 Title: Preocúpate. Preocúpate mucho.
+originalTitle: Be Worried. Be Very Worried.
 editor:  Time Magazine
 yearPublication: 2006
 type: "article"

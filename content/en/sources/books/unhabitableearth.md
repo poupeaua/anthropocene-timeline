@@ -1,5 +1,6 @@
 ---
 Title: The Unhabitable Earth
+originalTitle: The Unhabitable Earth
 author: David Wallace
 yearPublication: 2019
 Type: "book"

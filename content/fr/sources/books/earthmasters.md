@@ -1,5 +1,6 @@
 ---
 Title: Les Maîtres de la Terre
+originalTitle: Earthmasters
 author: Clive Hamilton
 yearPublication: 2013
 Type: "book"

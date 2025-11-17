@@ -1,5 +1,6 @@
 ---
-Title: One last chance.
+Title: Une dernière chance.
+originalTitle: One last chance.
 author: Justin Worland
 editor: Time Magazine
 yearPublication: 2020

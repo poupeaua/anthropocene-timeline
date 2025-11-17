@@ -1,5 +1,6 @@
 ---
 Title: Frente al colapso
+originalTitle: Devant l'Éffondrement
 author: Yves Cochet
 yearPublication: 2019
 Type: "book"

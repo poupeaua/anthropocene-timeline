@@ -1,5 +1,6 @@
 ---
 Title: Pourquoi le changement climatique ne nous effraie-t-il pas encore ?
+originalTitle: Why Climat Change does not Scare Us Yet ?
 author: Center for Research on Environmental Decisions
 yearPublication: 2006
 Type: "paper"

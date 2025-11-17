@@ -1,5 +1,6 @@
 ---
 Title: Esto lo cambia todo
+originalTitle: This Changes Everything
 author: Naomi Klein
 yearPublication: 2014
 Type: "book"

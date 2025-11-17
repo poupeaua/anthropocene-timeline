@@ -1,5 +1,6 @@
 ---
 Title: Trajectories of the Earth System
+originalTitle: Trajectories of the Earth System
 editor: Proceedings of the National academy of Sciences
 yearPublication: 2018
 Type: "paper"

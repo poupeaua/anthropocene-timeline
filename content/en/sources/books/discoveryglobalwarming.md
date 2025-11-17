@@ -1,5 +1,6 @@
 ---
 Title: The Discovery of Global Warming
+originalTitle: The Discovery of Global Warming
 author: Spencer R. Weart
 yearPublication: 2003
 Type: "book"

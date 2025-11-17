@@ -1,5 +1,6 @@
 ---
 Title: El descubrimiento del calentamiento global
+originalTitle: The Discovery of Global Warming
 author: Spencer R. Weart
 yearPublication: 2003
 Type: "book"

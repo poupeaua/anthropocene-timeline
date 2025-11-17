@@ -1,5 +1,6 @@
 ---
 Title: Oro Negro
+originalTitle: Or Noir
 author: Matthieu Auzanneau
 yearPublication: 2015
 Type: "book"

@@ -28,7 +28,7 @@
       <div class="hs-overlay-open:mt-7 hs-overlay-open:opacity-100 hs-overlay-open:duration-500 mt-0 opacity-0 ease-out transition-all sm:max-w-lg sm:w-full m-3 h-[calc(100%-56px)] sm:mx-auto">
         <div class="max-h-full overflow-hidden flex flex-col bg-white border shadow-sm rounded-xl pointer-events-auto border-gray-200 dark:border-neutral-700 dark:bg-neutral-800">
           <div class="flex justify-between items-start mt-3 px-4 border-b border-gray-200 dark:border-neutral-700">
-            <h3 class="font-bold text-gray-800 dark:text-white">
+            <h3 class="font-bold text-gray-800 dark:text-white mb-0">
               {{ $page.Title }}
             </h3>
             <button type="button" class="size-8 inline-flex justify-center items-center gap-x-2 rounded-full border border-transparent bg-gray-100 text-gray-800 hover:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none dark:bg-neutral-700 dark:text-neutral-400 dark:hover:bg-neutral-600" data-hs-overlay="#hs-book-modal-{{ $page.File.BaseFileName }}">
@@ -39,6 +39,9 @@
           <div class="p-4 overflow-y-auto">
             {{ with $page.Params.img }}
             <img class="w-full h-auto rounded-xl mb-4" src="{{ . }}" alt="{{ $page.Title }}">
+            {{ end }}
+            {{ with $page.Params.originalTitle }}
+            <h4 class="text-md font-medium text-gray-500 mb-0">{{ i18n "general.originalTitle" }}: {{ . }}</h4>
             {{ end }}
             {{ with $page.Params.editor }}
             <h4 class="text-md font-medium text-gray-500 mb-0">{{ i18n "general.editor" }}: {{ . }}</h4>
@@ -64,7 +67,7 @@
             {{ $yearPublication := cond (isset $page.Params "yearpublication") (printf "%v" .Params.yearPublication) "" }}
             {{ $writtenBy := i18n "general.writtenBy" }}
             {{ $publishedIn := i18n "general.publishedIn" }}
-            {{ $reference := printf "'%s' %s %s%s %s %s" $page.Title $writtenBy $editor $author $publishedIn $yearPublication }}
+            {{ $reference := printf "'%s' %s %s%s %s %s" $page.Params.originalTitle $writtenBy $editor $author $publishedIn $yearPublication }}
 
             {{ $copyRefText := i18n "general.copyReference" }}
             {{ partial "clipboard.html" (dict "value" $reference "textDisplayed" $copyRefText "label" $page.File.BaseFileName "py" "py-2") }}

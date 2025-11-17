@@ -1,5 +1,6 @@
 ---
 Title: Gouverner le Climat
+originalTitle: Gouverner le Climat
 author: Stefan C. Aykut & Amy Dahan
 yearPublication: 2014
 Type: "book"

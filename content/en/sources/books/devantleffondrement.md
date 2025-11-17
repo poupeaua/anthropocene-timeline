@@ -1,5 +1,6 @@
 ---
-Title: Devant l'Effondrement
+Title: Facing the Collapse
+originalTitle: Devant l'Éffondrement
 author: Yves Cochet
 yearPublication: 2019
 Type: "book"

@@ -1,5 +1,6 @@
 ---
-Title: Penser la décroissance
+Title: Thinking about degrowth
+originalTitle: Penser la décroissance
 author: Agnès Sinaï
 yearPublication: 2013
 Type: "book"

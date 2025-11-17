@@ -1,5 +1,6 @@
 ---
 Title: Planetary Boundaries
+originalTitle: Planetary Boundaries
 editor: Science
 yearPublication: 2023
 Type: "paper"

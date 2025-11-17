@@ -1,5 +1,6 @@
 ---
 Title: Mercaderes de la duda
+originalTitle: Merchants of Doubt
 author: Naomi Oreskes & Erik M. Conway
 yearPublication: 2015
 Type: "book"

@@ -1,5 +1,6 @@
 ---
-Title: Or Noir
+Title: Black Gold
+originalTitle: Or Noir
 author: Matthieu Auzanneau
 yearPublication: 2015
 Type: "book"
