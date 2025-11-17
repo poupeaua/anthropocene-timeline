@@ -49,6 +49,9 @@
         }
     },
     "general": {
+        "close": {
+            "other": "Fermer"
+        },
         "editor": {
             "other": "Éditeur"
         },
@@ -57,6 +60,18 @@
         },
         "yearPublication": {
             "other": "Année de publication"
+        },
+        "writtenBy": {
+            "other": "écrit par"
+        },
+        "publishedIn": {
+            "other": "publié en"
+        },
+        "copyReference": {
+            "other": "Copier référence"
+        },
+        "goToReference": {
+            "other": "Voir référence"
         }
     }
 }
