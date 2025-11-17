@@ -6,7 +6,7 @@ yearPublication: 2015
 Type: "book"
 Tags: ["pétrole", "énergie"]
 TagsLanguages: ["français"]
-img: /img/ecology/biblio/ornoir.jpg
+img: /img/sources/books/ornoir.jpg
 hidden: true
 link: "https://www.youtube.com/watch?v=slFE9Y8YCtc&ab_channel=librairiemollat"
 ---

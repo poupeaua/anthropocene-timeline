@@ -6,7 +6,7 @@ yearPublication: 2013
 Type: "book"
 Tags: ["déréglement climatique", "systémique"]
 TagsLanguages: ["english"]
-img: /img/ecology/biblio/earthmasters.jpg
+img: /img/sources/books/earthmasters.jpg
 hidden: true
 link: "https://yalebooks.co.uk/display.asp?k=9780300205213"
 ---

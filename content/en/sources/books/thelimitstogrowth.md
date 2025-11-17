@@ -6,7 +6,7 @@ yearPublication: 1972
 Type: "book"
 Tags: ["systemic"]
 TagsLanguages: ["english", "french"]
-img: /img/ecology/biblio/thelimitstogrowth.jpg
+img: /img/sources/books/thelimitstogrowth.jpg
 link: "http://www.donellameadows.org/wp-content/userfiles/Limits-to-Growth-digital-scan-version.pdf"
 ---
 

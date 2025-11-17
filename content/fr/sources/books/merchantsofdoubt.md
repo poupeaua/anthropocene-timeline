@@ -6,7 +6,7 @@ yearPublication: 2015
 Type: "book"
 Tags: ["déréglement climatique", "psychologie", "politique"]
 TagsLanguages: ["anglais", "français"]
-img: /img/ecology/biblio/merchantsofdoubt.jpg
+img: /img/sources/books/merchantsofdoubt.jpg
 hidden: true
 link: "https://www.google.fr/books/edition/Les_marchands_de_doute/_zOWDgAAQBAJ?hl=fr&gbpv=1&printsec=frontcover"
 ---

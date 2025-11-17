@@ -6,7 +6,7 @@ yearPublication: 2006
 type: "article"
 Tags: ["déréglement climatique"]
 TagsLanguages: ["anglais"]
-img: /img/ecology/biblio/beworriedbeveryworried.jpg
+img: /img/sources/articles/beworriedbeveryworried.jpg
 link: "http://content.time.com/time/magazine/article/0,9171,1176980,00.html"
 ---
 

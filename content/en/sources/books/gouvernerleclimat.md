@@ -6,7 +6,7 @@ yearPublication: 2014
 Type: "book"
 Tags: ["climate change", "politics"]
 TagsLanguages: ["french"]
-img: /img/ecology/biblio/gouvernerleclimat.jpg
+img: /img/sources/books/gouvernerleclimat.jpg
 link: "https://www.google.fr/books/edition/Gouverner_le_climat/xkrWBgAAQBAJ?hl=fr&gbpv=1&printsec=frontcover"
 ---
 

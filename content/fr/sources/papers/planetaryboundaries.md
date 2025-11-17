@@ -6,7 +6,7 @@ yearPublication: 2023
 Type: "paper"
 Tags: ["systémique", "déréglement climatique"]
 TagsLanguages: ["anglais"]
-img: /img/ecology/biblio/planetaryboundaries2023.jpg
+img: /img/sources/books/planetaryboundaries2023.jpg
 link: "https://www.science.org/doi/epdf/10.1126/sciadv.adh2458"
 ---
 

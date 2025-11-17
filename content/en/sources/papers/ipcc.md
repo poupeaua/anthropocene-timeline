@@ -6,7 +6,7 @@ yearPublication:
 Type: "paper"
 Tags: ["climate change", "politics"]
 TagsLanguages: ["english"]
-img: /img/ecology/biblio/ipcc.jpg
+img: /img/sources/papers/ipcc.jpg
 link: "https://www.ipcc.ch/reports/"
 ---
 

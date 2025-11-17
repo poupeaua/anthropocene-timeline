@@ -6,7 +6,7 @@ yearPublication: 2014
 Type: "book"
 Tags: ["cambio climático", "psicología"]
 TagsLanguages: ["inglés"]
-img: /img/ecology/biblio/donteventhinkaboutit.jpg
+img: /img/sources/books/donteventhinkaboutit.jpg
 link: "https://theclimatecenter.org/wp-content/uploads/2017/03/final_Dont-Even-Think-About-It-Notes.pdf"
 ---
 

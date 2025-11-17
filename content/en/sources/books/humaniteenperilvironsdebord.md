@@ -6,7 +6,7 @@ yearPublication: 2019
 Type: "book"
 Tags: ["systemic"]
 TagsLanguages: ["french"]
-img: /img/ecology/biblio/humaniteenperilvironsdebord.jpg
+img: /img/sources/books/humaniteenperilvironsdebord.jpg
 hidden: true
 link: "https://www.google.fr/books/edition/L_Humanit%C3%A9_en_p%C3%A9ril_Virons_de_bord_tou/_ZaRDwAAQBAJ?hl=fr&gbpv=1&printsec=frontcover"
 ---

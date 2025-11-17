@@ -1,16 +1,18 @@
 {{ define "main" }}
-  
-  <!-- Masthead-->
-  <header class="masthead text-center">
-    <div class="container d-flex align-items-center flex-column text-secondary">
-        <!-- Masthead 404 Image-->
-        <img class="masthead-avatar" src="/img/404-error-icon.jpg"/>
-        <!-- Masthead Heading-->
-        <h1>Erreur 404</h1>
-        <p>La page que vous cherchez n'a pas été trouvée.</p>
-        <a class="btn btn-outline-secondary text-uppercase" href="{{ .Site.Home.RelPermalink }}">
-          Retour à la page principale
-        </a>
-    </div>
-  </header>
+<div class="relative h-screen bg-white dark:bg-neutral-800">
+  <div
+    class="absolute inset-0 bg-cover bg-no-repeat mask-b-from-80% mask-b-to-99%"
+    style="background-image: url('{{ "img/404-error-icon.png" | relURL }}'); background-size: cover; background-position: center 24%;">
+  </div>
+
+  <div class="absolute bottom-14 left-1/2 -translate-x-1/2 flex flex-col items-center text-neutral-800 dark:text-white">
+      <h4 class="text-4xl font-bold">Erreur 404</h4>
+      <h5 class="text-base font-medium text-neutral-800 dark:text-white">
+        La page que vous recherchez n'existe pas sur ce site.
+      </h5>
+      <a class="mt-6 inline-block bg-white hover:bg-gray-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-800 dark:text-white font-bold py-2 px-4 rounded" href="{{ .Site.Home.RelPermalink }}">
+        Retour à la page d'accueil
+      </a>
+  </div>
+</div>
 {{ end }}

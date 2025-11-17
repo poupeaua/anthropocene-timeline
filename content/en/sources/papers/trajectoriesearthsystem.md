@@ -6,7 +6,7 @@ yearPublication: 2018
 Type: "paper"
 Tags: ["systemic", "climate change"]
 TagsLanguages: ["english"]
-img: /img/ecology/biblio/trajectoriesearthsystem.webp
+img: /img/sources/papers/trajectoriesearthsystem.webp
 link: "https://www.pnas.org/doi/epdf/10.1073/pnas.1810141115"
 ---
 

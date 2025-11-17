@@ -6,7 +6,7 @@ yearPublication: 2012
 Type: "paper"
 Tags: ["déréglement climatique"]
 TagsLanguages: ["anglais"]
-img: /img/ecology/biblio/approachingastateshiftinearthbiosphere.jpg
+img: /img/sources/books/approachingastateshiftinearthbiosphere.jpg
 link: "https://www.researchgate.net/publication/235752538_Approaching_a_state_shift_in_Earth's_biosphere"
 ---
 

@@ -5,7 +5,7 @@ editor: Intergovernmental Panel on Climate Change (IPCC)
 Type: "paper"
 Tags: ["cambio climático", "política"]
 TagsLanguages: ["inglés"]
-img: /img/ecology/biblio/ipcc.jpg
+img: /img/sources/papers/ipcc.jpg
 link: "https://www.ipcc.ch/reports/"
 ---
 

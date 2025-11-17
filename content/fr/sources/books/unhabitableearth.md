@@ -6,7 +6,7 @@ yearPublication: 2019
 Type: "book"
 Tags: ["systemic", "climate change"]
 TagsLanguages: ["english"]
-img: /img/ecology/biblio/unhabitableearth.jpg
+img: /img/sources/books/unhabitableearth.jpg
 hidden: true
 link: "https://www.crisrieder.org/thejourney/wp-content/uploads/2019/05/The-Uninhabitable-Earth-David-Wallace-Wells.pdf"
 ---

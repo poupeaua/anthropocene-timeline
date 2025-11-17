@@ -6,7 +6,7 @@ yearPublication: 2009
 Type: "book"
 Tags: ["déréglement climatique", "psychologie"]
 TagsLanguages: ["anglais"]
-img: /img/ecology/biblio/psychologyofclimatechangecommunication.png
+img: /img/sources/books/psychologyofclimatechangecommunication.png
 hidden: true
 link: "http://guide.cred.columbia.edu/pdfs/CREDguide_full-res.pdf"
 ---

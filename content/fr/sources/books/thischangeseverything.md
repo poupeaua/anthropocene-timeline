@@ -6,7 +6,7 @@ yearPublication: 2014
 Type: "book"
 Tags: ["déréglement climatique", "politique", "psychologie", "systémique"]
 TagsLanguages: ["anglais", "français"]
-img: /img/ecology/biblio/thischangeseverything.jpg
+img: /img/sources/books/thischangeseverything.jpg
 hidden: true
 link: "https://archive.org/details/pdfy-Skb-ch_k7psDm90Q/mode/2up"
 ---

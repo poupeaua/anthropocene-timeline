@@ -6,7 +6,7 @@ yearPublication: 1975
 Type: "paper"
 Tags: ["climate change"]
 TagsLanguages: ["english"]
-img: /img/ecology/biblio/areweonthebrinkofapronuncedglobalwarming.jpg
+img: /img/sources/papers/areweonthebrinkofapronuncedglobalwarming.jpg
 hidden: true
 link: "https://news.climate.columbia.edu/files/2009/10/broeckerglobalwarming75.pdf"
 ---

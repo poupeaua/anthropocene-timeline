@@ -6,7 +6,7 @@ yearPublication: 2013
 Type: "book"
 Tags: ["climate change", "systemic"]
 TagsLanguages: ["english"]
-img: /img/ecology/biblio/earthmasters.jpg
+img: /img/sources/books/earthmasters.jpg
 link: "https://yalebooks.co.uk/display.asp?k=9780300205213"
 ---
 

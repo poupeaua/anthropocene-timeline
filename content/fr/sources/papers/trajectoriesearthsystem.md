@@ -6,7 +6,7 @@ yearPublication: 2018
 Type: "paper"
 Tags: ["systémique", "déréglement climatique"]
 TagsLanguages: ["anglais"]
-img: /img/ecology/biblio/trajectoriesearthsystem.webp
+img: /img/sources/books/trajectoriesearthsystem.webp
 link: "https://www.pnas.org/doi/epdf/10.1073/pnas.1810141115"
 ---
 

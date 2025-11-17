@@ -6,7 +6,7 @@ yearPublication: 2015
 Type: "book"
 Tags: ["systémique", "énergie"]
 TagsLanguages: ["français"]
-img: /img/ecology/biblio/dormeztranquillesjusquen2100.jpg
+img: /img/sources/books/dormeztranquillesjusquen2100.jpg
 hidden: true
 link: "https://www.youtube.com/watch?v=M2wI25p_7GA"
 ---

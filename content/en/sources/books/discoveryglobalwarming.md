@@ -6,7 +6,7 @@ yearPublication: 2003
 Type: "book"
 Tags: ["climate change"]
 TagsLanguages: ["english"]
-img: /img/ecology/biblio/discoveryglobalwarming.jpg
+img: /img/sources/books/discoveryglobalwarming.jpg
 link: "https://history.aip.org/climate/reviews.htm"
 ---
 

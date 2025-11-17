@@ -6,7 +6,7 @@ yearPublication: 2019
 Type: "book"
 Tags: ["systémique"]
 TagsLanguages: ["français"]
-img: /img/ecology/biblio/devantleffondrement.jpg
+img: /img/sources/books/devantleffondrement.jpg
 hidden: true
 link: "https://www.google.fr/books/edition/Devant_l_effondrement/nEewDwAAQBAJ?hl=fr&gbpv=1&printsec=frontcover"
 ---
