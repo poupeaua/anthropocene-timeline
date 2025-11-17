@@ -1,6 +1,7 @@
 ---
 Title: Deux Degrés
-Subtitle: Edwin Zaccai - 2019
+author: Edwin Zaccai
+yearPublication: 2019
 Type: "book"
 Tags: ["déréglement climatique", "psychologie"]
 TagsLanguages: ["français"]

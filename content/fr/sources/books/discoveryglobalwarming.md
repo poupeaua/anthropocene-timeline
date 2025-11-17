@@ -1,6 +1,7 @@
 ---
 Title: La découverte du réchauffement de la planète
-Subtitle: Spencer R. Weart - 2003
+author: Spencer R. Weart
+yearPublication: 2003
 Type: "book"
 Tags: ["déréglement climatique"]
 TagsLanguages: ["anglais"]

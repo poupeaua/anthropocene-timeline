@@ -1,6 +1,7 @@
 ---
 Title: Or Noir
-Subtitle: Matthieu Auzanneau - 2015
+author: Matthieu Auzanneau
+yearPublication: 2015
 Type: "book"
 Tags: ["pétrole", "énergie"]
 TagsLanguages: ["français"]

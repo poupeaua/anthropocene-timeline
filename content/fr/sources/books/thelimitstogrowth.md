@@ -1,6 +1,7 @@
 ---
 Title: Les Limites de la Croissance
-Subtitle: Dennis Meadows, Donella Meadows and Jørgen Randers - 1972
+author: Dennis Meadows, Donella Meadows and Jørgen Randers
+yearPublication: 1972
 Type: "book"
 Tags: ["systémique"]
 TagsLanguages: ["anglais", "français"]

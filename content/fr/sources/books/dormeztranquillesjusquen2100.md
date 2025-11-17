@@ -1,6 +1,7 @@
 ---
 Title: Dormez tranquilles jusqu'en 2100
-Subtitle: Jean-Marc Jancovici - 2015
+author: Jean-Marc Jancovici
+yearPublication: 2015
 Type: "book"
 Tags: ["systémique", "énergie"]
 TagsLanguages: ["français"]

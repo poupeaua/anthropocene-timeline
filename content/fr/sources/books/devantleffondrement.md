@@ -1,6 +1,7 @@
 ---
 Title: Devant l'Effondrement
-Subtitle: Yves Cochet - 2019
+author: Yves Cochet
+yearPublication: 2019
 Type: "book"
 Tags: ["systémique"]
 TagsLanguages: ["français"]

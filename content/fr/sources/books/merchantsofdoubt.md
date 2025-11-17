@@ -1,6 +1,7 @@
 ---
 Title: Les Marchands de doute
-Subtitle: Naomi Oreskes & Erik M. Conway - 2015
+author: Naomi Oreskes & Erik M. Conway
+yearPublication: 2015
 Type: "book"
 Tags: ["déréglement climatique", "psychologie", "politique"]
 TagsLanguages: ["anglais", "français"]

@@ -1,6 +1,7 @@
 ---
 Title: Les Maîtres de la Terre
-Subtitle: Clive Hamilton - 2013
+author: Clive Hamilton
+yearPublication: 2013
 Type: "book"
 Tags: ["déréglement climatique", "systémique"]
 TagsLanguages: ["english"]

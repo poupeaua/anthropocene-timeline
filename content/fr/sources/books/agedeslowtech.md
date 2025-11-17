@@ -1,6 +1,7 @@
 ---
 Title: L'Age des Low Tech
-Subtitle: Philippe Bihouix - 2014
+author: Philippe Bihouix
+yearPublication: 2014
 Type: "book"
 Tags: ["systémique", "métaux"]
 TagsLanguages: ["français"]

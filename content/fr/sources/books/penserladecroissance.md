@@ -1,6 +1,7 @@
 ---
 Title: Penser la décroissance
-Subtitle: Agnès Sinaï - 2013
+author: Agnès Sinaï
+yearPublication: 2013
 Type: "book"
 Tags: ["politique" , "systémique"]
 TagsLanguages: ["français"]

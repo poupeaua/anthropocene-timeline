@@ -1,6 +1,7 @@
 ---
 Title: Tout peut changer
-Subtitle: Naomi Klein - 2014
+author: Naomi Klein
+yearPublication: 2014
 Type: "book"
 Tags: ["déréglement climatique", "politique", "psychologie", "systémique"]
 TagsLanguages: ["anglais", "français"]

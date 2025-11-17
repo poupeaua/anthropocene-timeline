@@ -1,6 +1,8 @@
 ---
 Title: Soyez inquiet. Soyez très inquiet.
-Subtitle:  Time Magazine - 2006
+editor:  Time Magazine
+yearPublication: 2006
+type: "article"
 Tags: ["déréglement climatique"]
 TagsLanguages: ["anglais"]
 img: /img/ecology/biblio/beworriedbeveryworried.jpg

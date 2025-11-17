@@ -1,6 +1,7 @@
 ---
 Title: N'y pense même pas
-Subtitle: George Marshall - 2014
+author: George Marshall
+yearPublication: 2014
 Type: "book"
 Tags: ["déréglement climatique", "psychologie"]
 TagsLanguages: ["anglais"]
