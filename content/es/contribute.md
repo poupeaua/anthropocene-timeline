@@ -12,7 +12,7 @@ add_content:
         title: Pasos
         step1:
             title: "Crea tu contenido:"
-            description: "Envía una solicitud de incorporación (pull request) en GitHub. El nuevo contenido debe respetar la plantilla, estar en inglés y tener fuentes verificables."
+            description: "Envía una solicitud de nuevo contenido. El nuevo contenido debe respetar la plantilla, estar en inglés y tener fuentes verificables."
         step2:
             title: "Verificación del contenido:"
             description: "Tu contenido será revisado por los principales colaboradores para asegurarse de que tenga sentido aquí y esté correctamente referenciado."

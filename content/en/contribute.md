@@ -12,7 +12,7 @@ add_content:
         title: Steps
         step1:
             title: "Create your content:"
-            description: "Submit a pull request on Github. The new content should respect the template, must be in english and be sourced."
+            description: "Submit a new content. The new content should respect the template, must be in english and be sourced."
         step2:
             title: "Content verification:"
             description: "Your content will be reviewed by the main contributors to make sure it makes sense here and is sourced."

@@ -12,7 +12,7 @@ add_content:
         title: Étapes
         step1:
             title: "Créez votre contenu :"
-            description: "Soumettez une pull request sur GitHub. Le nouveau contenu doit respecter le modèle, être en anglais et comporter des sources vérifiables."
+            description: "Proposez votre contenu. Le nouveau contenu doit respecter le modèle, être en anglais et comporter des sources vérifiables."
         step2:
             title: "Vérification du contenu :"
             description: "Votre contenu sera examiné par les principaux contributeurs afin de s’assurer qu’il a sa place ici et qu’il est correctement sourcé."
