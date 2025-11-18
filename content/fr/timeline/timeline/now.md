@@ -14,7 +14,7 @@ Vous pouvez être un penseur, un créateur, un instigateur, un organisateur ou u
 **L'important est d'arrêter de nier**. Si nous comprenons profondément, nous agirons en conséquence. Même si Naomi Klein se concentre sur le changement climatique, cela s'applique au problème systémique :
 
 {{< rawhtml >}}
-<figure class="bg-primary p-3 rounded text-white">
+<figure class="bg-primary p-3 rounded text-neutral-800 dark:text-white">
 <blockquote>
 <p>
 Un grand nombre d'entre nous s'engagent dans ce type de déni du changement climatique. Nous recherchons un une fraction de seconde puis nous détournons le regard. Ou nous regardons mais transformons cela en plaisanterie ("plus de signes de l'Apocalypse !"). Ce qui est une autre façon de détourner le regard. <br><br>

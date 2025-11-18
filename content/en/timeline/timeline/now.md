@@ -13,7 +13,7 @@ You can be a thinker, a maker, an instigator, an organiser or a facilitator (Art
 **The important thing it to stop denying**. If we deeply understand we will act accordingly. Even though Naomi Klein is focused on climate change, this applies for the systemic concern:
 
 {{< rawhtml >}}
-<figure class="bg-primary p-3 rounded text-white">
+<figure class="bg-primary p-3 rounded text-neutral-800 dark:text-white">
 <blockquote>
 <p>
 A great many of us engage in this kind of climate change denial. We look for a 

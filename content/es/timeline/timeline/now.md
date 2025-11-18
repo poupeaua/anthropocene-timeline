@@ -14,7 +14,7 @@ Puedes ser un pensador, un creador, un instigador, un organizador o un facilitad
 **Lo importante es dejar de negar**. Si comprendemos profundamente, actuaremos en consecuencia. Aunque Naomi Klein se centra en el cambio climático, esto se aplica a la preocupación sistémica:
 
 {{< rawhtml >}}
-<figure class="bg-primary p-3 rounded text-white">
+<figure class="bg-primary p-3 rounded text-neutral-800 dark:text-white">
 <blockquote>
 <p>
 Muchos de nosotros participamos en este tipo de negación del cambio climático. buscamos un
