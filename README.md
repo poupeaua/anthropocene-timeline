@@ -12,10 +12,10 @@ https://preline.co/docs/frameworks-hugo.html
 
 This website is divided into different sections :
 
-- **Timeline**: Display the timeline
+- **Home**: The timeline
 - **About**: General information about the project
+- **Sources**: References used in the timeline
 - **Contributing**: How to contribute to the project
-- **References**: References used in the timeline
 
 ## Technical Details
 
