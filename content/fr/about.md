@@ -5,7 +5,7 @@ Type: about
 
 why:
     title: "Pourquoi une frise chronologique de l’Anthropocène ?"
-    main: "Les gens ont tendance à oublier. Nous oublions ce qui s’est passé dans le passé, il y a un an, un mois, voire un jour.
+    main: "Les gens ont tendance à oublier. Nous oublions ce qui a eu lieu dans le passé, il y a un an, un mois, voire un jour.
             L’écologie est un sujet trop important pour être oublié. 
             Les médias, de nos jours, ne nous aident pas toujours à en avoir une vision claire.
             Une frise chronologique est une façon de se souvenir de ce qui est arrivé dans le passé."
@@ -18,7 +18,7 @@ history:
         J’ai lu le livre « Tout peut changer » de Naomi Klein, et il a littéralement tout changé dans ma vie."
     main2: "J’ai eu l’idée de la frise chronologique en 2022, lors de la création de mon site personnel.
         La frise est restée là pendant des années sans jamais être partagée."
-    main3: "En 2025, j’ai décidé de créer un site web dédié à cette frise et de la partager avec le monde."      
+    main3: "En 2025, j’ai décidé de créer un site web dédié à cette frise et de le partager avec le monde."      
 
 caracteristics:
     goal:

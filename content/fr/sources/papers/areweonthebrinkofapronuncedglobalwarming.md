@@ -6,7 +6,7 @@ yearPublication: 1975
 Type: "paper"
 Tags: ["déréglement climatique"]
 TagsLanguages: ["anglais"]
-img: /img/sources/books/areweonthebrinkofapronuncedglobalwarming.jpg
+img: /img/sources/papers/areweonthebrinkofapronuncedglobalwarming.jpg
 link: "https://news.climate.columbia.edu/files/2009/10/broeckerglobalwarming75.pdf"
 ---
 
