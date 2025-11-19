@@ -1,0 +1,4 @@
+<div class="flex justify-center mb-4">
+    {{- $class := .Get "class" | default "rounded-lg" -}}
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" class="{{ $class }}" />
+</div>
