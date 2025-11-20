@@ -75,6 +75,9 @@
         },
         "goToReference": {
             "other": "Voir référence"
+        },
+        "learnMore": {
+            "other": "En savoir plus"
         }
     }
 }

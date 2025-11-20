@@ -75,6 +75,9 @@
         },
         "goToReference": {
             "other": "Go to reference"
+        },
+        "learnMore": {
+            "other": "Learn more"
         }
     }
 }
