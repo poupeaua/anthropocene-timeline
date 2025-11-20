@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "postcss ./assets/css/main.css -o ./static/css/main.css",
+    "build:css": "postcss ./assets/css/main.css -o ./static/css/main.css",
+    "build:hugo": "hugo",
+    "build": "npm run build:css && npm run build:hugo",
     "dev": "npx @tailwindcss/cli -i ./assets/css/main.css -o ./static/css/main.css --minify --watch"
   },
   "repository": {

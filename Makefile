@@ -48,7 +48,7 @@ preprod:
 	@echo "----------------------------------------------------------------------------------------------------------"
 	@echo "Deployed on port ${PREPROD_PORT}"
 	# auto cleaning of directory docs/ after CTRL-C in Make
-	bash -c "trap 'rm -r docs/' EXIT; bash .exec/preprod.sh"
+	bash .exec/preprod.sh
 
 latest:
 	@echo "---------------------------------------------------------------------"
