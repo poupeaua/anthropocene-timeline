@@ -2,10 +2,10 @@
 Title: Les rapports du GIEC
 originalTitle: IPCC reports
 editor: Intergovernmental Panel on Climate Change (IPCC)
-Type: "paper"
+Type: "report"
 Tags: ["déréglement climatique", "politique"]
 TagsLanguages: ["anglais"]
-img: /img/sources/papers/ipcc.jpg
+img: /img/sources/reports/ipcc.jpg
 link: "https://www.ipcc.ch/reports/"
 ---
 
