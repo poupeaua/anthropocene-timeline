@@ -10,6 +10,9 @@
             "papers": {
                 "other": "Articles Scientifiques"
             },
+            "reports": {
+                "other": "Rapports"
+            },
             "books": {
                 "other": "Livres"
             },
@@ -78,6 +81,9 @@
         },
         "learnMore": {
             "other": "En savoir plus"
+        },
+        "seeSource": {
+            "other": "Voir source"
         }
     }
 }

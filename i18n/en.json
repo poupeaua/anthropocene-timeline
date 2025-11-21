@@ -10,6 +10,9 @@
             "papers": {
                 "other": "Papers"
             },
+            "reports": {
+                "other": "Reports"
+            },
             "books": {
                 "other": "Books"
             },
@@ -78,6 +81,9 @@
         },
         "learnMore": {
             "other": "Learn more"
+        },
+        "seeSource": {
+            "other": "See source"
         }
     }
 }

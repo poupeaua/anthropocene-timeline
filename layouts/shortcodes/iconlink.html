@@ -1,0 +1,13 @@
+{{- $title := .Get "title" -}}
+{{- $type := .Get "type" -}}
+{{- $icon := .Get "icon" | default "bi-info-circle-fill" -}}
+{{ $page := site.GetPage $type }}
+
+<div class="hs-tooltip inline-block">
+  <a href="{{ $page.RelPermalink }}#hs-src-modal-{{ $title }}" target="_blank" rel="noopener noreferrer" class="hs-tooltip-toggle">
+    <i class="bi {{ $icon }}"></i>
+    <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity hidden invisible z-10 py-1 px-2 bg-gray-900 text-xs font-medium text-white rounded-lg shadow-2xs dark:bg-neutral-900" role="tooltip">
+      {{ i18n "general.seeSource" }}
+    </span>
+  </a>
+</div>
