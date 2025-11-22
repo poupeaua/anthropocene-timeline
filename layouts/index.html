@@ -30,6 +30,11 @@
 
       <!-- Item -->
       <div class="hs-accordion relative flex gap-x-0 group rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700" id="hs-accordion-item-{{ $index }}">
+        
+        <!-- Close Button -->
+        <button type="button" class="js-close-timeline-element opacity-0 transition-opacity pointer-events-none duration-300 absolute flex md:top-4 md:right-4 md:size-8 top-1 right-1 size-5 z-30 items-center justify-center  rounded-full bg-neutral-800 hover:bg-neutral-800/50 hover:text-neutral-800 dark:hover:text-white backdrop-blur-sm dark:text-neutral-800 dark:bg-white dark:hover:bg-white/50 text-white">
+          <svg class="shrink-0 size-4 md:size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
 
         <button type="button" class="hs-accordion-toggle absolute inset-0 w-full h-full rounded-lg
            bg-transparent border-0 appearance-none
