@@ -5,7 +5,7 @@
 {{- $sourcePath := printf "sources/%s/%s" $type $title -}}
 {{- $sourcePage := site.GetPage $sourcePath -}}
 
-<div class="hs-tooltip inline-block">
+<div class="ml-2 hs-tooltip inline-block">
   <a href="{{ $page.RelPermalink }}#hs-src-modal-{{ $title }}" target="_blank" rel="noopener noreferrer" class="hs-tooltip-toggle">
     <i class="bi {{ $icon }}"></i>
     <span class="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 text-center transition-opacity invisible z-50 py-2 px-2 w-32 bg-gray-900 dark:bg-white text-xs font-medium text-white dark:text-neutral-800 rounded-lg shadow-2xl flex flex-col items-center" role="tooltip">

@@ -2,12 +2,6 @@
 
 The objective of this website is to share the timeline of the Anthropocene.
 
-## UI Components Library
-
-We are now using Preline UI.
-
-https://preline.co/docs/frameworks-hugo.html
-
 ## Sections
 
 This website is divided into different sections :
@@ -57,9 +51,22 @@ You just have to push the code in master. Two Github Actions CI/CD pipelines tak
 
 2. A second pipeline executes then based on the automatic push on the *gh-pages*. This one deploys for real the website in production and make it available online.
 
+## Tech Stack
+
+- Hugo
+- TailwindCSS
+- Preline UI
+
 ### Hugo Version
 
 See all the release of Hugo framework here: https://github.com/gohugoio/hugo/releases
 
 hugo version currently used: 
-hugo v0.148.2+extended+withdeploy darwin/arm64 BuildDate=2025-07-27T12:43:24Z VendorInfo=brew
+hugo v0.152.2+extended+withdeploy darwin/arm64 BuildDate=2025-10-24T15:31:49Z VendorInfo=brew
+
+### UI Components Library
+
+We are now using Preline UI.
+It uses Tailwind behind the scene.
+
+https://preline.co/docs/frameworks-hugo.html
