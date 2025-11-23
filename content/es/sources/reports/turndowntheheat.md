@@ -1,5 +1,5 @@
 ---
-Title: "Bajemos la temperatura: por qué se debe evitar un planeta 4º C más cálido"
+Title: "Bajemos la temperatura"
 originalTitle: "Turn Down the Heat: Why a 4°C Warmer World Must Be Avoided"
 editor: World Bank
 yearPublication: 2012

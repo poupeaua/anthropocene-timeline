@@ -4,7 +4,7 @@ originalTitle: "The New Plastics Economy: Rethinking the future of plastics"
 editor: World Economic Forum
 yearPublication: 2016
 Type: "report"
-Tags: ["systemics", "politics", "environment"]
+Tags: ["systemic", "politics", "environment"]
 TagsLanguages: ["english"]
 img: /img/sources/reports/thenewplasticseconomy.jpg
 link: "https://www3.weforum.org/docs/WEF_The_New_Plastics_Economy.pdf"

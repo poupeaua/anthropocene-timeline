@@ -1,5 +1,5 @@
 ---
-Title: "Baissons la chaleur : Pourquoi il faut absolument éviter une élévation de 4°C de la temperature de la planète"
+Title: "Baissons la chaleur"
 originalTitle: "Turn Down the Heat: Why a 4°C Warmer World Must Be Avoided"
 editor: World Bank
 yearPublication: 2012
