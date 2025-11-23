@@ -11,8 +11,7 @@
     <div class="mt-3">
       <p class="text-gray-500 dark:text-neutral-500">{{ i18n "footer.contact" }}</p>
 
-      <div class="hidden sm:inline"> {{ partial "clipboard.html" (dict "value" .Site.Params.email "label" "footer") }} </div>
-      <div class="inline sm:hidden"> {{ partial "clipboard.html" (dict "value" (i18n "general.copyMail") "label" "footer") }} </div>
+      {{ partial "clipboard.html" (dict "value" .Site.Params.email "label" "footer") }}
 
       <p class="mt-3 text-gray-500 dark:text-neutral-500">
         {{ .Site.Params.Copyright }}

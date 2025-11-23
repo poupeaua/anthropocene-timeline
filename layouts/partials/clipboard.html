@@ -14,8 +14,9 @@
   data-clipboard-action="copy"
   data-clipboard-success-text="{{ i18n "copiedToClipboard.success"}}">
 
-  {{ $textDisplayed }}
-  
+  <!-- span with style word break is IMPORTANT because it allow to break long text on multiple lines for small devices -->
+  <span style="word-break: break-all;">{{ $textDisplayed }}</span>
+
   <span class="border-s border-gray-200 ps-3.5 dark:border-neutral-600">
       <svg class="js-clipboard-default size-4 group-hover:rotate-6 transition" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
