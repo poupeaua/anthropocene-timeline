@@ -18,7 +18,7 @@ jobs:
       - name: Install and Build 🔧 # This project is built using hugo and outputs the result to the 'docs/' folder. 
         run: |
           make install-linux
-          make preprod
+          hugo --gc --minify
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4

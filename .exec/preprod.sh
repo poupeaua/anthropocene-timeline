@@ -1,4 +1,4 @@
-source .env
+source .env-public
 echo "Building site for preprod environment..."
 echo "Using base URL: ${LOCALHOST_URL}:${PREPROD_PORT}"
 npm run build:css
