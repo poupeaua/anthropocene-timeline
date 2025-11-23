@@ -91,7 +91,7 @@
         <div class="md:py-3 py-2 inline-flex items-center border-transparent text-sm whitespace-nowrap text-neutral-800 hover:text-blue-600 focus:outline-hidden focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-blue-500 dark:focus:text-blue-500" id="basic-tabs-item-2" aria-selected="false" data-hs-tab="#basic-tabs-2" aria-controls="basic-tabs-2" role="tab">
           <i class="w-8 bi bi-info-circle text-xl md:hidden inline-flex"></i>
           {{ $about := site.GetPage "about" }}
-          <a href="{{ $about.Permalink }}">{{ i18n "navbar.about" }}</a>
+          <a href="{{ $about.RelPermalink }}">{{ i18n "navbar.about" }}</a>
         </div>
 
         <div class="hs-dropdown [--strategy:static] sm:[--strategy:absolute] [--adaptive:none] sm:[--trigger:click] [--auto-close:true] [--is-collapse:true] sm:[--is-collapse:false] ">
