@@ -1,0 +1,13 @@
+---
+Title: Duerme tranquilo hasta los 2100
+originalTitle: Dormez tranquilles jusqu'en 2100
+author: Jean-Marc Jancovici
+yearPublication: 2015
+Type: "book"
+Tags: ["sistémico", "energía"]
+TagsLanguages: ["francés"]
+img: /img/sources/books/dormeztranquillesjusquen2100.jpg
+link: "https://www.youtube.com/watch?v=M2wI25p_7GA"
+---
+
+Un libro difícil de leer en mi opinión, ya que va en todas las direcciones, a izquierda y derecha, con una estructura confusa. Recomendaría mejor las conferencias de Jean-Marc Jancovici (disponibles en Youtube, por ejemplo): es más claro oralmente.

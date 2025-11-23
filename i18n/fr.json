@@ -1,21 +1,89 @@
 {
-    "footer": {
-       "location": {
-           "other": "Localisation"
-       },
-       "aroundWeb": {
-           "other": "Autour du Web"
-       },
-       "contactMe": {
-           "other": "Contactez-moi"
-       },
-       "copiedToClipboard": {
-            "other": "Copié dans le presse-papier!"
-       }
+    "navbar": {
+        "home": {
+            "other": "Accueil"
+        },
+        "sources": {
+            "main": {
+                "other": "Sources"
+            },
+            "papers": {
+                "other": "Articles Scientifiques"
+            },
+            "reports": {
+                "other": "Rapports"
+            },
+            "books": {
+                "other": "Livres"
+            },
+            "secondary": {
+                "main":{
+                    "other": "Médias"
+                },
+                "articles": {
+                    "other": "Articles de presse"
+                },
+                "videos": {
+                    "other": "Vidéos"
+                },
+                "musics": {
+                    "other": "Musique"
+                }
+            }
+        },
+        "contribute": {
+            "other": "Contribuer"
+        },
+        "about": {
+            "other": "À propos"
+        }
     },
-    "nav": {
-        "menu": {
-            "other": "Menu"
+    "copiedToClipboard": {
+        "hover": {
+            "other": "Copier"
+        },
+        "success": {
+            "other": "Copié dans le presse-papier!"        
+        }
+    },
+    "footer": {
+        "contact": {
+            "other": "Intéressé par le projet? Contactez-moi!"
+        }
+    },
+    "general": {
+        "close": {
+            "other": "Fermer"
+        },
+        "originalTitle": {
+            "other": "Titre original"
+        },
+        "editor": {
+            "other": "Éditeur"
+        },
+        "author": {
+            "other": "Auteur"
+        },
+        "yearPublication": {
+            "other": "Année de publication"
+        },
+        "writtenBy": {
+            "other": "écrit par"
+        },
+        "publishedIn": {
+            "other": "publié en"
+        },
+        "copyReference": {
+            "other": "Copier référence"
+        },
+        "goToReference": {
+            "other": "Voir référence"
+        },
+        "learnMore": {
+            "other": "En savoir plus"
+        },
+        "seeSource": {
+            "other": "Voir source"
         }
     }
- }
+}

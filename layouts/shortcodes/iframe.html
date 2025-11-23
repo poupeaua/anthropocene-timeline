@@ -1,0 +1,10 @@
+<div class="flex justify-center mb-4">
+    {{- $src := .Get "src" -}}
+    {{- $width := .Get "width" | default "100%" -}}
+    {{- $height := .Get "height" | default "600rem" -}}
+    {{- $lazy := .Get "lazy" | default "lazy" -}}
+    {{- $class := .Get "class" | default "" -}}
+    {{- $scrolling := .Get "scrolling" | default "no" -}}
+    {{- $frameBorder := .Get "frameBorder" | default "0" -}}
+    <iframe src="{{ $src }}" height="{{ $height }}" width="{{ $width }}" loading="{{ $lazy }}" class="{{ $class }}" scrolling="{{ $scrolling }}" frameborder="{{ $frameBorder }}" style="border:0;" allowfullscreen></iframe>
+</div>

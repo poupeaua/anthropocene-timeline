@@ -1,0 +1,51 @@
+ul {
+  @apply list-disc list-outside my-4 pl-5;
+}
+
+h1 {
+  @apply text-4xl font-bold mb-4;
+}
+
+h2 {
+  @apply text-3xl font-bold mb-4;
+}
+
+h3 {
+  @apply text-2xl font-semibold mb-4;
+}
+
+h4 {
+  @apply text-xl font-semibold mb-4;
+}
+
+p {
+  @apply mb-4;
+}
+
+.text-link {
+  @apply text-blue-600 hover:text-blue-500 decoration-2 hover:underline focus:outline-hidden focus:underline opacity-90;
+}
+
+.navbar {
+  @apply backdrop-blur-2xl transition-all duration-400 ease-in-out;
+}
+
+/* When scrolling down (hide it) */
+.navbar.hide {
+  @apply -translate-y-[150%];
+}
+
+/* When scrolled past hero (make opaque) */
+.navbar.scrolled {
+  @apply backdrop-blur-sm;
+}
+
+h4.mb-0,
+p.mb-0 {
+  @apply mb-0;
+}
+
+/* Show close button when accordion is active */
+.hs-accordion.active .js-close-timeline-element {
+  @apply flex opacity-100 pointer-events-auto;
+}

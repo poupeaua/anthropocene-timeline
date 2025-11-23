@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ .Language }}" data-theme="light">
   {{ partial "head.html" . }}
-  <body class="has-navbar-fixed-top">
-    
-    {{ partial "nav.html" . }}
+  <body class="bg-white dark:bg-neutral-800">
 
+    {{ partial "nav.html" . }}
+    
     {{ block "main" . }}
     {{ end }}
     
     {{ partial "footer.html" . }}
 
   </body>
+
+  {{ partial "scripts.html" . }}
+
 </html>

@@ -1,8 +1,177 @@
 {{ define "main" }}
 
-<h1>
-    This is the Contributing page for {{ .Site.Title }}.
-    {{ .Title }}
-</h1>
+<!-- Contribute Page -->
+<section class="max-w-5xl mx-auto p-6 space-y-12 bg-white text-neutral-800 dark:bg-neutral-800 dark:text-white">
+
+  <!-- Header -->
+  <header class="text-center space-y-3 mt-20">
+    <h1 class="text-4xl font-bold">{{ $.Param "top.title" }}</h1>
+    <p class="text-gray-500 dark:text-neutral-400">{{ $.Param "top.description" }}</p>
+  </header>
+
+  <!-- Add Content Section -->
+  <!-- Approach -->
+    <div class="p-2 md:p-6 rounded-2xl shadow-md space-y-4 bg-gray-50 dark:bg-neutral-700/15">
+    <div class="mx-auto px-4">
+        <!-- Title -->
+        <div class="max-w-3xl mb-10 lg:mb-14">
+        <h2 class="font-semibold text-2xl md:text-4xl md:leading-tight">{{ $.Param "add_content.title" }}</h2>
+        <p class="mt-1 text-gray-500 dark:text-neutral-400">{{ $.Param "add_content.description" }}</p>
+        </div>
+        <!-- End Title -->
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 lg:items-center">
+        <div class="aspect-w-16 aspect-h-9 lg:aspect-none">
+            <img class="w-full object-cover rounded-xl" src="/img/contribute/add_content.jpg" alt="Features Image">
+        </div>
+        <!-- End Col -->
+
+        <!-- Timeline -->
+        <div>
+            <!-- Heading -->
+            <div class="mb-4">
+            <h3 class="text-xs font-medium">
+                {{ $.Param "add_content.steps.title" }}
+            </h3>
+            </div>
+            <!-- End Heading -->
+
+            <!-- Item -->
+            <div class="flex gap-x-5 ms-1">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800 dark:after:bg-white">
+                <div class="relative z-10 size-8 flex justify-center items-center">
+                <span class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 dark:border-white font-semibold text-xs uppercase rounded-full">
+                    1
+                </span>
+                </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8 sm:pb-12">
+                <p class="text-sm lg:text-base text-gray-500 dark:text-neutral-400">
+                <span class="font-bold text-neutral-800 dark:text-white">{{ $.Param "add_content.steps.step1.title" }}</span>
+                {{ $.Param "add_content.steps.step1.description" }}
+                </p>
+            </div>
+            <!-- End Right Content -->
+            </div>
+            <!-- End Item -->
+
+            <!-- Item -->
+            <div class="flex gap-x-5 ms-1">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800 dark:after:bg-white">
+                <div class="relative z-10 size-8 flex justify-center items-center">
+                <span class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 dark:border-white font-semibold text-xs uppercase rounded-full">
+                    2
+                </span>
+                </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8 sm:pb-12">
+                <p class="text-sm lg:text-base text-gray-500 dark:text-neutral-400">
+                <span class="font-bold text-neutral-800 dark:text-white">{{ $.Param "add_content.steps.step2.title" }}</span>
+                {{ $.Param "add_content.steps.step2.description" }}
+                </p>
+            </div>
+            <!-- End Right Content -->
+            </div>
+            <!-- End Item -->
+
+            <!-- Item -->
+            <div class="flex gap-x-5 ms-1">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800 dark:after:bg-white">
+                <div class="relative z-10 size-8 flex justify-center items-center">
+                <span class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 dark:border-white font-semibold text-xs uppercase rounded-full">
+                    3
+                </span>
+                </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8 sm:pb-12">
+                <p class="text-sm lg:text-base text-gray-500 dark:text-neutral-400">
+                <span class="font-bold text-neutral-800 dark:text-white">{{ $.Param "add_content.steps.step3.title" }}</span>
+                {{ $.Param "add_content.steps.step3.description" }}
+                </p>
+            </div>
+            <!-- End Right Content -->
+            </div>
+            <!-- End Item -->
+
+            <!-- Item -->
+            <div class="flex gap-x-5 ms-1">
+            <!-- Icon -->
+            <div class="relative last:after:hidden after:absolute after:top-8 after:bottom-0 after:start-4 after:w-px after:-translate-x-[0.5px] after:bg-neutral-800 dark:after:bg-white">
+                <div class="relative z-10 size-8 flex justify-center items-center">
+                <span class="flex shrink-0 justify-center items-center size-8 border border-neutral-800 dark:border-white font-semibold text-xs uppercase rounded-full">
+                    4
+                </span>
+                </div>
+            </div>
+            <!-- End Icon -->
+
+            <!-- Right Content -->
+            <div class="grow pt-0.5 pb-8 sm:pb-12">
+                <p class="text-sm lg:text-base text-gray-500 dark:text-neutral-400">
+                <span class="font-bold text-neutral-800 dark:text-white">{{ $.Param "add_content.steps.step4.title" }}</span>
+                {{ $.Param "add_content.steps.step4.description" }}
+                </p>
+            </div>
+            <!-- End Right Content -->
+            </div>
+            <!-- End Item -->
+
+            <span class="inline-flex items-center gap-x-2 py-2 px-3 rounded-full text-xs font-medium border border-gray-800 text-gray-800 dark:border-neutral-200 dark:text-white">
+                {{ $.Param "add_content.steps.final.title" }}
+            </span>
+        </div>
+        <!-- End Timeline -->
+        </div>
+        <!-- End Grid -->
+    </div>
+    </div>
+    <!-- End Approach -->
+
+  <!-- Join Community Section -->
+  <section id="community" class="bg-gray-50 dark:bg-neutral-700 p-6 rounded-2xl shadow-md space-y-4">
+    <h2 class="text-2xl font-semibold">{{ $.Param "join_community.title" }}</h2>
+    <p class="text-gray-500 dark:text-neutral-400">{{ $.Param "join_community.description" }}</p>
+    
+    <div class="border-b border-gray-200 dark:border-white">
+      <nav class="flex space-x-2" aria-label="Tabs" role="tablist">
+        <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600 focus:outline-none focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-200 dark:hover:text-blue-500 active" id="tabs-with-underline-item-1" data-hs-tab="#tabs-with-underline-1" aria-controls="tabs-with-underline-1" role="tab">
+            <i class="bi bi-github"></i>
+            GitHub
+        </button>
+        <button type="button" class="hs-tab-active:font-semibold hs-tab-active:border-blue-600 hs-tab-active:text-blue-600 py-4 px-1 inline-flex items-center gap-x-2 border-b-2 border-transparent text-sm whitespace-nowrap text-gray-500 hover:text-blue-600 focus:outline-none focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:text-neutral-200 dark:hover:text-blue-500" id="tabs-with-underline-item-2" data-hs-tab="#tabs-with-underline-2" aria-controls="tabs-with-underline-2" role="tab">
+            <i class="bi bi-discord"></i>
+            Discord
+        </button>
+      </nav>
+    </div>
+
+    <div class="mt-3">
+      <div id="tabs-with-underline-1" role="tabpanel" aria-labelledby="tabs-with-underline-item-1">
+        <p class="text-gray-500 dark:text-neutral-400">
+          {{ $.Param "join_community.canals.github.description" }} <a href="https://github.com/poupeaua/anthropocene-timeline/discussions" target="_blank" class="text-blue-600 hover:underline">GitHub Discussions</a>.
+        </p>
+      </div>
+      <div id="tabs-with-underline-2" class="hidden" role="tabpanel" aria-labelledby="tabs-with-underline-item-2">
+        <p class="text-gray-500 dark:text-neutral-400">
+          {{ $.Param "join_community.canals.discord.description" }}
+        </p>
+      </div>
+    </div>
+  </section>
+
+</section>
 
 {{ end }}

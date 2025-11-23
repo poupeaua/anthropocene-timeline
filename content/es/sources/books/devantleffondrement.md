@@ -1,0 +1,13 @@
+---
+Title: Frente al colapso
+originalTitle: Devant l'Éffondrement
+author: Yves Cochet
+yearPublication: 2019
+Type: "book"
+Tags: ["sistémico"]
+TagsLanguages: ["francés"]
+img: /img/sources/books/devantleffondrement.jpg
+link: "https://www.google.fr/books/edition/Devant_l_effondrement/nEewDwAAQBAJ?hl=fr&gbpv=1&printsec=frontcover"
+---
+
+Un libro difícil de leer por la conclusión que sugiere: un colapso de nuestra sociedad probablemente en 2020 y seguro antes de 2030.

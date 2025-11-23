@@ -38,8 +38,9 @@ local:
 	@echo "----------------------------------------------------------------------------------------------------------"
 	@echo "Testing the website in local for quick test with changes in code automatically applied in rendered website"
 	@echo "----------------------------------------------------------------------------------------------------------"
-	@echo "Deployed on port ${TEST_PORT}"
-	hugo server -D --baseURL ${LOCALHOST_URL}:${TEST_PORT}/
+	@echo "Beware: to allow full reload even on CSS and class modification run on another terminal"
+	@echo "Deployed on port ${TEST_PORT} + enable binding to test on other interfaces (on MacOS run 'ipconfig getifaddr en0')"
+	hugo server -D --baseURL ${LOCALHOST_URL}:${TEST_PORT}/ --bind 0.0.0.0
 
 preprod:
 	@echo "----------------------------------------------------------------------------------------------------------"
@@ -47,7 +48,7 @@ preprod:
 	@echo "----------------------------------------------------------------------------------------------------------"
 	@echo "Deployed on port ${PREPROD_PORT}"
 	# auto cleaning of directory docs/ after CTRL-C in Make
-	bash -c "trap 'rm -r docs/' EXIT; bash .exec/preprod.sh"
+	bash .exec/preprod.sh
 
 latest:
 	@echo "---------------------------------------------------------------------"

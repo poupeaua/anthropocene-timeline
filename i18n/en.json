@@ -1,21 +1,89 @@
 {
-    "footer": {
-       "location": {
-           "other": "Location"
-       },
-       "aroundWeb": {
-           "other": "Around the web"
-       },
-       "contactMe": {
-           "other": "Contact me"
-       },
-       "copiedToClipboard": {
-            "other": "Copied to clipboard!"
-       }
+    "navbar": {
+        "home": {
+            "other": "Home"
+        },
+        "sources": {
+            "main": {
+                "other": "Sources"
+            },
+            "papers": {
+                "other": "Papers"
+            },
+            "reports": {
+                "other": "Reports"
+            },
+            "books": {
+                "other": "Books"
+            },
+            "secondary": {
+                "main":{
+                    "other": "Medias"
+                },
+                "articles": {
+                    "other": "Articles"
+                },
+                "videos": {
+                    "other": "Videos"
+                },
+                "musics": {
+                    "other": "Musics"
+                }
+            }
+        },
+        "contribute": {
+            "other": "Contribute"
+        },
+        "about": {
+            "other": "About"
+        }
     },
-    "nav": {
-        "menu": {
-            "other": "Menu"
+    "copiedToClipboard": {
+        "hover": {
+            "other": "Copy"
+        },
+        "success": {
+            "other": "Copied"
+        }
+    },
+    "footer": {
+        "contact": {
+            "other": "Interested in the project? Let's get in touch!"
+        }
+    },
+    "general": {
+        "close": {
+            "other": "Close"
+        },
+        "originalTitle": {
+            "other": "Original title"
+        },
+        "editor": {
+            "other": "Editor"
+        },
+        "author": {
+            "other": "Author"
+        },
+        "yearPublication": {
+            "other": "Year of publication"
+        },
+        "writtenBy": {
+            "other": "written by"
+        },
+        "publishedIn": {
+            "other": "published in"
+        },
+        "copyReference": {
+            "other": "Copy reference"
+        },
+        "goToReference": {
+            "other": "Go to reference"
+        },
+        "learnMore": {
+            "other": "Learn more"
+        },
+        "seeSource": {
+            "other": "See source"
         }
     }
- }
+}

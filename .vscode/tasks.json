@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Tailwind CSS Live Reload",
+      "type": "shell",
+      "command": "npm run dev",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Hugo Live Reload",
+      "type": "shell",
+      "command": "make local",
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+    {
+      "label": "Start all",
+      "dependsOn": ["Tailwind CSS Live Reload", "Hugo Live Reload"],
+      "dependsOrder": "parallel",
+      "runOptions": {
+        "runOn": "folderOpen",
+      }
+    }
+  ]
+}
