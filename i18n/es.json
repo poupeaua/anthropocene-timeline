@@ -84,6 +84,9 @@
         },
         "seeSource": {
             "other": "Ver fuente"
+        },
+        "copyMail": {
+            "other": "Copiar email"
         }
     }
 }
