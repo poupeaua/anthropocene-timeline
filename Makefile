@@ -1,4 +1,4 @@
-include .env
+include .env-public
 
 clean:
 	@echo "------------------"
@@ -29,7 +29,7 @@ install-mac:
 	mkdir -p ${HUGO_DOWNLOAD_DIR}
 	tar -xvzf ${HUGO_RELEASE_FILE_MAC} -C ${HUGO_DOWNLOAD_DIR}
 	@echo "TODO Copy and run:"
-	@echo "source .env"
+	@echo "source .env-public"
 	@echo "export PATH=\"${HUGO_DOWNLOAD_DIR}:${PATH}\" >> ~/.zshrc"
 	echo "BEWARE: Validate the execution of the executable in MAC security settings"
 	@echo "Successfully installed Hugo version ${HUGO_VERSION}!"
