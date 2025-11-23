@@ -1,7 +1,7 @@
 ---
 Title: Bombes Carbones
 originalTitle: “Carbon Bombs” - Mapping key fossil fuel projects
-editor: University of Leeds, School of Geography, Leeds, UK, Leave it in the Ground Initiative, Radebeul, Germany, Urgewald, Berlin, Germany Global Energy Monitor, USA,University of British Columbia, Canada, Syracuse University, USA 
+editor: Elsevier
 yearPublication: 2022
 Type: "paper"
 Tags: ["climate change", "energy"]
