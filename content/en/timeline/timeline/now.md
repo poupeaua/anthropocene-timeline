@@ -51,6 +51,6 @@ ecological amnesia for perfectly rational reasons. We deny because we fear that
 letting in the full reality of this crisis will change everything. And we are right.
 </p>
 </blockquote>
-<figcaption>—Naomi Klein, <cite><a href="https://archive.org/stream/pdfy-Skb-ch_k7psDm90Q/Naomi%20Klein%20-%20This%20Changes%20Everything_djvu.txt" target="_blank">This Changes Everything</a> book introduction, 2014</figcaption>
+<figcaption>—Naomi Klein, <cite><a href="https://archive.org/stream/pdfy-Skb-ch_k7psDm90Q/Naomi%20Klein%20-%20This%20Changes%20Everything_djvu.txt" target="_blank">This Changes Everything</a>, introduction, 2014</figcaption>
 </figure>
 {{< /rawhtml >}}

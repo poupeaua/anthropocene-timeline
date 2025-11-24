@@ -6,9 +6,10 @@ publishDir = 'docs'
 staticDir = 'static'
 
 [params]
-copyright = '© 2025 Anthropocene Timeline.'
+author = "Alexandre Poupeau"
 email = "alexandre.poupeau.contact@gmail.com"
 siteName = 'Anthropocene Timeline'
+images = ["/img/main/art-ipcc-curv.jpeg"]
 [params.navigation]
   help = 'Help'
 
@@ -18,12 +19,14 @@ siteName = 'Anthropocene Timeline'
     contentDir = "content/en"
     languageName = "English"
     weight = 1
+    copyright = 'Anthropocene Timeline. All rights reserved.'
     [languages.en.params]
       languageShort = "EN"
   [languages.fr]
     title = "La ligne du temps de l'Anthropocène"
     contentDir = "content/fr"
     languageName = "Français"
+    copyright = 'Anthropocene Timeline. Tous droits réservés.'
     weight = 2
     [languages.fr.params]
       languageShort = "FR"
@@ -33,6 +36,7 @@ siteName = 'Anthropocene Timeline'
     title = 'La linea de tiempo del Anthropoceno'
     contentDir = "content/es"
     languageName = "Español"
+    copyright = 'Anthropocene Timeline. Todos los derechos reservados.'
     weight = 3
     [languages.es.params]
       languageShort = "ES"

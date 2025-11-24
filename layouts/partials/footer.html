@@ -14,9 +14,8 @@
       <div class="hidden sm:inline"> {{ partial "clipboard.html" (dict "value" .Site.Params.email "label" "footer") }} </div>
       <div class="inline sm:hidden"> {{ partial "clipboard.html" (dict "value" (i18n "general.copyMail") "label" "footer") }} </div>
 
-      <p class="mt-3 text-gray-500 dark:text-neutral-500">
-        {{ .Site.Params.Copyright }}
-      </p>
+      <p class="mt-3 text-gray-500 dark:text-neutral-500">Copyright © <span id="currentYear"></span>, {{ .Site.Copyright }}</p>
+      <p class="mt-1 text-gray-500 dark:text-neutral-500">{{ i18n "footer.createdBy" }} {{ .Site.Params.author }}.</p>
     </div>
 
     <!-- Social Brands -->

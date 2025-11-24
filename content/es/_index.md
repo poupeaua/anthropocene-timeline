@@ -1,6 +1,6 @@
 ---
-Title: ecología
-type: "ecology"
+Title: Linea del tiempo
+type: "timeline"
 
 top:
     image: 
