@@ -25,6 +25,9 @@ add_content:
             description: "Votre contenu est en cours de révision finale."
         final:
             title: "Votre contenu est désormais en ligne !"
+    feature_building: 
+        title: "À venir prochainement"
+        description: "La fonctionnalité de contribution est en cours de développement et sera disponible dans une prochaine mise à jour. En attendant, vous pouvez me contacter à l'adresse e-mail indiquée en bas de page."
 
 join_community:
     title: Rejoindre la communauté

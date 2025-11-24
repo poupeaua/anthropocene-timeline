@@ -25,6 +25,9 @@ add_content:
             description: "Tu contenido está en su etapa de revisión final."
         final:
             title: "¡Tu contenido ya está en línea!"
+    feature_building:
+        title: "Próximamente"
+        description: "La función de contribución está en desarrollo y estará disponible en una futura actualización. Mientras tanto, puedes ponerte en contacto conmigo utilizando el correo electrónico que aparece al pie de página."
 
 join_community:
     title: Únete a la comunidad
