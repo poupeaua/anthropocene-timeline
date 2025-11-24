@@ -49,6 +49,9 @@
     "footer": {
         "contact": {
             "other": "Intéressé par le projet? Contactez-moi!"
+        },
+        "createdBy": {
+            "other": "Créé par"
         }
     },
     "general": {
