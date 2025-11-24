@@ -1,6 +1,6 @@
 ---
-Title: écologie
-type: "ecology"
+Title: Frise chronologique
+type: "timeline"
 
 top:
     image: 

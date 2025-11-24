@@ -17,7 +17,7 @@ Vous pouvez être un penseur, un créateur, un instigateur, un organisateur ou u
 <figure class="bg-primary p-3 rounded text-neutral-800 dark:text-white">
 <blockquote>
 <p>
-Un grand nombre d'entre nous s'engagent dans ce type de déni du changement climatique. Nous recherchons un une fraction de seconde puis nous détournons le regard. Ou nous regardons mais transformons cela en plaisanterie ("plus de signes de l'Apocalypse !"). Ce qui est une autre façon de détourner le regard. <br><br>
+Un grand nombre d'entre nous s'engagent dans ce type de déni du changement climatique. Nous regardons une fraction de seconde puis nous détournons le regard. Ou nous regardons mais transformons cela en plaisanterie ("plus de signes de l'Apocalypse !"). Ce qui est une autre façon de détourner le regard. <br><br>
 
 Ou nous regardons mais nous nous racontons des histoires réconfortantes sur la façon dont les humains sont intelligents et proposeront un miracle technologique qui aspirera le carbone en toute sécurité du ciel ou baissera comme par magie la chaleur du soleil. C'est ce que j'ai eu l'occasion de découvrir lors des recherches pour l'édition du livre, et c'est encore une autre façon de détourner le regard. <br><br>
 
@@ -32,6 +32,6 @@ Nous nous rappelons et oublions à nouveau. Le changement climatique est comme �
 dans la tête très longtemps. Nous nous engageons dans cette forme étrange d'amnésie écologique pour des raisons parfaitement rationnelles. Nous nions parce que nous craignons que laisser entrer la pleine réalité de cette crise va tout changer. Et nous avons raison.
 </p>
 </blockquote>
-<figcaption>—Naomi Klein, <cite><a href="https://archive.org/stream/pdfy-Skb-ch_k7psDm90Q/Naomi%20Klein%20-%20This%20Changes%20Everything_djvu.txt" target="_blank">Tout peut changer</a>introduction, 2014</figcaption>
+<figcaption>—Naomi Klein, <cite><a href="https://archive.org/stream/pdfy-Skb-ch_k7psDm90Q/Naomi%20Klein%20-%20This%20Changes%20Everything_djvu.txt" target="_blank">Tout peut changer</a>, introduction, 2014</figcaption>
 </figure>
 {{< /rawhtml >}}

@@ -1,11 +1,11 @@
 ---
-Title: about
+Title: Sobre
 id: about
 Type: about
 
 why:
     title: "¿Por qué una línea del tiempo del Antropoceno?"
-    main: "Las personas tienden a olvidar. Olvidamos lo que ocurrió en el pasado, hace un año, un mes o incluso un día.
+    main: "Tendemos a olvidar. Olvidamos lo que ocurrió en el pasado, hace un año, un mes o incluso un día.
             La ecología es un tema demasiado importante para ser olvidado. 
             Los medios de comunicación hoy en día no siempre nos ayudan a tener una visión clara sobre ello.
             Una línea del tiempo es una manera de recordar lo que sucedió en el pasado."

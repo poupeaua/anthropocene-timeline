@@ -1,11 +1,11 @@
 ---
-Title: about
+Title: About
 id: about
 Type: about
 
 why:
     title: "Why an Anthropocene Timeline?"
-    main: "People tend to forget. We forget what happened in the past, one year ago, one month ago and even one day ago sometimes.
+    main: "We tend to forget. We forget what happened in the past, one year ago, one month ago and even one day ago sometimes.
             Ecology is a topic too important to be forgotten. 
             Media nowadays do not always help us to have a clear vision about this.
             A timeline is a way to remember what happened in the past."

@@ -1,3 +1,3 @@
 ---
-title: "Papers"
+title: "Articles Scientifiques"
 ---

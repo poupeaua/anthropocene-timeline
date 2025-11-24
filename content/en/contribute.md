@@ -1,5 +1,5 @@
 ---
-Title: contribute
+Title: Contribute
 
 top:
     title: Contribute

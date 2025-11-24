@@ -49,6 +49,6 @@ en tu cabeza por mucho tiempo. Nos involucramos en esta extraña forma de amnesi
 entender que la realidad de esta crisis lo cambiará todo. Y tenemos razón.
 </p>
 </blockquote>
-<figcaption>—Naomi Klein, <cite><a href="https://archive.org/stream/pdfy-Skb-ch_k7psDm90Q/Naomi%20Klein%20-%20This%20Changes%20Everything_djvu.txt" target="_blank">Esto lo cambia todo</a> introducción del libro, 2014</figcaption>
+<figcaption>—Naomi Klein, <cite><a href="https://archive.org/stream/pdfy-Skb-ch_k7psDm90Q/Naomi%20Klein%20-%20This%20Changes%20Everything_djvu.txt" target="_blank">Esto lo cambia todo</a>, introducción del libro, 2014</figcaption>
 </figure>
 {{< /rawhtml >}}
