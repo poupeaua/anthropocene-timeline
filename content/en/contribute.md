@@ -25,6 +25,9 @@ add_content:
             description: "Your content is in its final review stage."
         final:
             title: "Your content is now live!"
+    feature_building:
+        title: Coming soon
+        description: "The contribution feature is under development and will be available in a future update. Meanwhile you can contact me using the mail at the footer."
 
 join_community:
     title: Join the community
