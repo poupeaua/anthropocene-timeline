@@ -2,4 +2,11 @@
 Title: Frise chronologique
 type: "timeline"
 
+landingpage:
+    title: "L’Écologie rencontre l’Histoire"
+    subtitle: "Une chronologie concise et sourcée des événements clés liés à l’écologie et à l’Anthropocène — du passé à nos jours."
+    buttons:
+        gototimeline: "Commencer à lire"
+        learnmore: "En savoir plus"
+
 ---
