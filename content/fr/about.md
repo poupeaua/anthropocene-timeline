@@ -34,4 +34,10 @@ caracteristics:
         title: "Contribution"
         main: "Ce projet grandit avec sa communauté. Ajoutez votre voix à la frise, librement et gratuitement."
 
+credit:
+    image: 
+        credit: Crédit
+        info: "*Currents*, 2020"
+        subinfo: Oeuvre d'art de Jill Pelto
+
 ---

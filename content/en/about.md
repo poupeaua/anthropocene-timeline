@@ -33,5 +33,11 @@ caracteristics:
     contribution:
         title: Contribution
         main: "This project grows with its community. Add your voice to the timeline, freely and openly."
-    
+   
+credit:
+    image:
+        credit: "Credit"
+        info: "*Currents*, 2020"
+        subinfo: Artwork by Jill Pelto
+
 ---

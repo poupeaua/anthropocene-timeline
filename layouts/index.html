@@ -2,15 +2,11 @@
 
 <div class="relative h-screen w-full bg-white dark:bg-neutral-800">
   <div
-    class="absolute inset-0 bg-cover bg-no-repeat mask-b-from-80% mask-b-to-99%"
+    class="absolute inset-0 bg-cover bg-no-repeat mask-b-from-55% mask-b-to-99%"
     style="background-image: url('{{ "img/main/art-ipcc-curv.jpeg" | relURL }}'); background-size: cover; background-position: center;">
   </div>
 
-  <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center text-neutral-800 dark:text-white">
-      <h5 class="text-base text-center hover:text-blue-600 dark:hover:text-blue-500">
-        <a href="https://www.jillpelto.com/currents/" target="_blank">{{ $.Param "top.image.info" | markdownify }}</a>
-      </h5>
-      <p class="text-sm text-center">{{ $.Param "top.image.subinfo" }}</p>
+  <div class="absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center text-neutral-800 dark:text-white">
     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
       class="bi bi-arrow-down-short animate-bounce mt-4"
       viewBox="0 0 16 16">
@@ -22,17 +18,17 @@
   </div>
   
   <div class="absolute bottom-20 inset-x-0">
-    <div class="max-w-7xl w-full mx-2 sm:mx-auto ps-4">
+    <div class="max-w-7xl w-full sm:mx-auto ps-4">
         <div class="max-w-3xl">
-          <h2 class="text-4xl sm:text-5xl font-bold mb-4">Ecology meets History</h1>
-          <p class="">A concise, sourced timeline of key ecological and Anthropocene-related events — from past to present. Explore the milestones that shaped our environment, check the references, and contribute to improving the project.</p>
-          <button type="button" class="py-3 px-4 mr-5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
-            <a href="#timeline-start">Go to timeline</a>
-          </button>
-          <button type="button" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-blue-600 hover:bg-blue-100 hover:text-blue-800 focus:outline-hidden focus:bg-blue-100 focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:bg-blue-800/30 dark:hover:text-blue-400 dark:focus:bg-blue-800/30 dark:focus:text-blue-400">
-            {{ $about := site.GetPage "about" }}
-            <a href="{{ $about.RelPermalink }}">Learn more</a>
-          </button>
+          <h2 class="text-4xl sm:text-5xl font-bold mb-4 dark:text-white">Ecology meets History</h1>
+          <p class="dark:text-white">A concise, sourced timeline of key ecological and Anthropocene-related events — from past to present. Explore the milestones that shaped our environment, check the references, and contribute to improving the project.</p>
+          <a href="#timeline-start" class="py-3 px-4 mr-5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
+            Go to timeline
+          </a>
+          {{ $about := site.GetPage "about" }}
+          <a href="{{ $about.RelPermalink }}" class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-blue-600 hover:bg-blue-100 hover:text-blue-800 focus:outline-hidden focus:bg-blue-100 focus:text-blue-800 disabled:opacity-50 disabled:pointer-events-none dark:text-blue-500 dark:hover:bg-blue-800/30 dark:hover:text-blue-400 dark:focus:bg-blue-800/30 dark:focus:text-blue-400">
+            Learn more
+          </a>
         </div>
     </div>
   </div>

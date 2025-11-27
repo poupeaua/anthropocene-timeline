@@ -34,4 +34,10 @@ caracteristics:
         title: "Contribución"
         main: "Este proyecto crece con su comunidad. Añade tu voz a la línea del tiempo, libremente y de forma gratuita."
 
+credit:
+    image: 
+        credit: "Crédito"
+        info: "*Currents*, 2020"
+        subinfo: Obra de arte de Jill Pelto
+
 ---
