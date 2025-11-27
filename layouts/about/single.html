@@ -1,107 +1,126 @@
 {{ define "main" }}
 
-<!-- Why Section -->
-<div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto mt-24 text-neutral-800 dark:text-white">
-    <div class="text-center">
-        <h2 class="text-2xl font-bold md:text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
-            {{ $.Param "why.title" }}
-        </h2>
-        <p class="mt-3 text-gray-500 dark:text-neutral-400">
-            {{ $.Param "why.main" }}
-        </p>
-        <p class="mt-3 text-gray-500 dark:text-neutral-400">
-            {{ $.Param "why.sub" }}
-        </p>
-    </div>
-</div>
+<section class="max-w-7xl p-4 mx-auto space-y-12 bg-white text-neutral-800 dark:bg-neutral-800 dark:text-white">
 
-<!-- Features -->
-<div class="max-w-[85rem] px-4 sm:px-6 lg:px-8 mx-auto mt-12 text-neutral-800 dark:text-white">
-  <div class="aspect-w-16 aspect-h-7">
-    <img class="w-full max-h-[40vh] object-cover rounded-xl" src="/img/about/valparaiso.webp" alt="Features Image">
+  <!-- Why Section -->
+  <div class=" mx-auto mt-24 text-neutral-800 dark:text-white">
+      <div class="text-center">
+          <h2 class="text-2xl font-bold md:text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
+              {{ $.Param "why.title" }}
+          </h2>
+          <p class="mt-3 text-gray-500 dark:text-neutral-400">
+              {{ $.Param "why.main" }}
+          </p>
+          <p class="mt-3 text-gray-500 dark:text-neutral-400">
+              {{ $.Param "why.sub" }}
+          </p>
+      </div>
   </div>
 
-  <!-- Grid -->
-  <div class="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
-    <div class="lg:col-span-1">
-      <h2 class="font-bold text-2xl md:text-3xl text-gray-800 dark:text-neutral-200">
-        {{ $.Param "history.title" }}
-      </h2>
-      <p class="mt-2 md:mt-4 text-gray-500 dark:text-neutral-400">
-        {{ $.Param "history.main1" }}
-      </p>
-      <p class="mt-2 md:mt-4 text-gray-500 dark:text-neutral-400">    
-        {{ $.Param "history.main2" }}
-      </p>
-        <p class="mt-2 md:mt-4 text-gray-500 dark:text-neutral-400">
-        {{ $.Param "history.main3" }}
-    </p>
+  <!-- Features -->
+  <div class=" mx-auto mt-12 text-neutral-800 dark:text-white">
+    <div class="aspect-w-16 aspect-h-7">
+      <img class="w-full max-h-[40vh] object-cover rounded-xl" src="/img/about/valparaiso.webp" alt="Features Image">
     </div>
-    <!-- End Col -->
 
-    <div class="lg:col-span-2">
-      <div class="grid sm:grid-cols-2 gap-8 md:gap-12">
-        <!-- Icon Block -->
-        <div class="flex gap-x-5">
-          <i class="bi bi-heart-fill shrink-0 mt-1 text-xl text-blue-600"></i>          
-          <div class="grow">
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-              {{ $.Param "caracteristics.goal.title" }} 
-            </h3>
-            <p class="mt-1 text-gray-500 dark:text-neutral-400">
-              {{ $.Param "caracteristics.goal.main" }} 
-            </p>
-          </div>
-        </div>
-        <!-- End Icon Block -->
+    <!-- Grid -->
+    <div class="mt-5 lg:mt-16 grid lg:grid-cols-3 gap-8 lg:gap-12">
+      <div class="lg:col-span-1">
+        <h2 class="font-bold text-2xl md:text-3xl text-gray-800 dark:text-neutral-200">
+          {{ $.Param "history.title" }}
+        </h2>
+        <p class="mt-2 md:mt-4 text-gray-500 dark:text-neutral-400">
+          {{ $.Param "history.main1" }}
+        </p>
+        <p class="mt-2 md:mt-4 text-gray-500 dark:text-neutral-400">    
+          {{ $.Param "history.main2" }}
+        </p>
+          <p class="mt-2 md:mt-4 text-gray-500 dark:text-neutral-400">
+          {{ $.Param "history.main3" }}
+      </p>
+      </div>
+      <!-- End Col -->
 
-        <!-- Icon Block -->
-        <div class="flex gap-x-5">
-            <i class="bi bi-bookmark-check-fill shrink-0 mt-1 text-xl text-blue-600"></i>          
-          <div class="grow">
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-              {{ $.Param "caracteristics.reliable.title" }} 
-            </h3>
-            <p class="mt-1 text-gray-500 dark:text-neutral-400">
-              {{ $.Param "caracteristics.reliable.main" }} 
-            </p>
-          </div>
-        </div>
-        <!-- End Icon Block -->
-
-        <!-- Icon Block -->
-        <div class="flex gap-x-5">
-            <i class="bi bi-stars shrink-0 mt-1 text-xl text-blue-600"></i>          
+      <div class="lg:col-span-2">
+        <div class="grid sm:grid-cols-2 gap-8 md:gap-12">
+          <!-- Icon Block -->
+          <div class="flex gap-x-5">
+            <i class="bi bi-heart-fill shrink-0 mt-1 text-xl text-blue-600"></i>          
             <div class="grow">
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-              {{ $.Param "caracteristics.simple.title" }} 
-            </h3>
-            <p class="mt-1 text-gray-500 dark:text-neutral-400">
-              {{ $.Param "caracteristics.simple.main" }} 
-            </p>
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                {{ $.Param "caracteristics.goal.title" }} 
+              </h3>
+              <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                {{ $.Param "caracteristics.goal.main" }} 
+              </p>
+            </div>
           </div>
-        </div>
-        <!-- End Icon Block -->
+          <!-- End Icon Block -->
 
-        <!-- Icon Block -->
-        <div class="flex gap-x-5">
-            <i class="bi bi-people-fill shrink-0 mt-1 text-xl text-blue-600"></i>          
-          <div class="grow">
-            <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
-              {{ $.Param "caracteristics.contribution.title" }} 
-            </h3>
-            <p class="mt-1 text-gray-500 dark:text-neutral-400">
-              {{ $.Param "caracteristics.contribution.main" }} 
-            </p>
+          <!-- Icon Block -->
+          <div class="flex gap-x-5">
+              <i class="bi bi-bookmark-check-fill shrink-0 mt-1 text-xl text-blue-600"></i>          
+            <div class="grow">
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                {{ $.Param "caracteristics.reliable.title" }} 
+              </h3>
+              <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                {{ $.Param "caracteristics.reliable.main" }} 
+              </p>
+            </div>
           </div>
+          <!-- End Icon Block -->
+
+          <!-- Icon Block -->
+          <div class="flex gap-x-5">
+              <i class="bi bi-stars shrink-0 mt-1 text-xl text-blue-600"></i>          
+              <div class="grow">
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                {{ $.Param "caracteristics.simple.title" }} 
+              </h3>
+              <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                {{ $.Param "caracteristics.simple.main" }} 
+              </p>
+            </div>
+          </div>
+          <!-- End Icon Block -->
+
+          <!-- Icon Block -->
+          <div class="flex gap-x-5">
+              <i class="bi bi-people-fill shrink-0 mt-1 text-xl text-blue-600"></i>          
+            <div class="grow">
+              <h3 class="text-lg font-semibold text-gray-800 dark:text-white">
+                {{ $.Param "caracteristics.contribution.title" }} 
+              </h3>
+              <p class="mt-1 text-gray-500 dark:text-neutral-400">
+                {{ $.Param "caracteristics.contribution.main" }} 
+              </p>
+            </div>
+          </div>
+          <!-- End Icon Block -->
         </div>
-        <!-- End Icon Block -->
+      </div>
+      <!-- End Col -->
+    </div>
+    <!-- End Grid -->
+  </div>
+  <!-- End Features -->
+
+  <section id="community" class="bg-gray-50 dark:bg-neutral-700 p-6 rounded-2xl shadow-md space-y-4">
+    <div class="flex text-center items-center gap-x-8">
+      <div class="w-1/2 rounded">
+        <h2 class="text-xl font-semibold">{{ $.Param "credit.image.credit" }}</h2>
+        <h5 class="text-gray-500 dark:text-neutral-400">
+              {{ $.Param "credit.image.info" | markdownify }}
+          </h5>
+            <a href="https://www.jillpelto.com/currents/" target="_blank" class="text-sm text-neutral-800 hover:text-blue-600 focus:outline-hidden focus:text-blue-600 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:text-blue-500 dark:focus:text-blue-500">{{ $.Param "credit.image.subinfo" }} <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+      <div class="w-1/2">
+          <img src='{{ "img/main/art-ipcc-curv.jpeg" | relURL }}' alt="IPCC Curve" class="rounded-xl">
       </div>
     </div>
-    <!-- End Col -->
-  </div>
-  <!-- End Grid -->
-</div>
-<!-- End Features -->
+  </section>
+
+</section>
 
 {{ end }}

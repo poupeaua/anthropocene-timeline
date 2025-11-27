@@ -2,9 +2,11 @@
 Title: Frise chronologique
 type: "timeline"
 
-top:
-    image: 
-        info: "*Currents*, aquarelle et crayon de couleur, 2020"
-        subinfo: Jill Pelto, artiste du changement climatique
+landingpage:
+    title: "L’Écologie rencontre l’Histoire"
+    subtitle: "Une chronologie concise et sourcée des événements clés liés à l’écologie et à l’Anthropocène — du passé à nos jours."
+    buttons:
+        gototimeline: "Commencer à lire"
+        learnmore: "En savoir plus"
 
 ---

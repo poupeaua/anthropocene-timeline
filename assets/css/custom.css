@@ -49,3 +49,8 @@ p.mb-0 {
 .hs-accordion.active .js-close-timeline-element {
   @apply flex opacity-100 pointer-events-auto;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+

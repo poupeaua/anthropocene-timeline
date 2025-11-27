@@ -2,9 +2,11 @@
 Title: Linea del tiempo
 type: "timeline"
 
-top:
-    image: 
-        info: "*Currents*, acuarela y lápiz de color, 2020"
-        subinfo: Jill Pelto artista del cambio climático
+landingpage:
+    title: "La Ecología se encuentra con la Historia"
+    subtitle: "Una línea del tiempo concisa y bien documentada sobre los eventos clave relacionados con la ecología y el Antropoceno — del pasado al presente."
+    buttons:
+        gototimeline: "Ir a la línea del tiempo"
+        learnmore: "Saber más"
 
 ---
