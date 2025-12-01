@@ -41,22 +41,22 @@
             <img class="w-full h-auto rounded-xl mb-4" src="{{ . }}" alt="{{ $page.Title }}">
             {{ end }}
             {{ with $page.Params.originalTitle }}
-            <h4 class="text-xl font-bold text-neutral-800 dark:text-white mb-0 inline">{{ i18n "general.originalTitle" }}: </h4>
+            <h4 class="text-xl font-bold text-neutral-800 dark:text-white mb-0 mr-1 inline">{{ i18n "general.originalTitle" }}: </h4>
             <h4 class="text-xl text-gray-500 dark:text-neutral-300 mb-0 inline">{{ . }}</h4>
             <div class="mb-0"></div>
             {{ end }}
             {{ with $page.Params.editor }}
-            <h4 class="text-md font-bold text-neutral-800 dark:text-white mb-0 inline">{{ i18n "general.editor" }}: </h4>
+            <h4 class="text-md font-bold text-neutral-800 dark:text-white mb-0 mr-1 inline">{{ i18n "general.editor" }}: </h4>
             <h4 class="text-md text-gray-500 dark:text-neutral-300 mb-0 inline">{{ . }}</h4>
             <div class="mb-0"></div>
             {{ end }}
             {{ with $page.Params.author }}
-            <h4 class="text-md font-medium text-neutral-800 dark:text-white mb-0 inline">{{ i18n "general.author" }}: </h4>
+            <h4 class="text-md font-medium text-neutral-800 dark:text-white mb-0 mr-1 inline">{{ i18n "general.author" }}: </h4>
             <h4 class="text-xl text-gray-500 dark:text-neutral-300 mb-0 inline">{{ . }}</h4>
             <div class="mb-0"></div>
             {{ end }}
             {{ with $page.Params.yearPublication }}
-            <p class="text-md font-medium text-neutral-800 dark:text-white mb-0 inline">{{ i18n "general.yearPublication" }}: </p>
+            <p class="text-md font-medium text-neutral-800 dark:text-white mb-0 mr-1 inline">{{ i18n "general.yearPublication" }}: </p>
             <p class="text-md text-gray-500 dark:text-neutral-300 mb-0 inline">{{ . }}</p>
             <div class="mb-0"></div>
             {{ end }}
