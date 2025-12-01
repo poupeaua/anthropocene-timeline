@@ -45,7 +45,7 @@
       <div class="hs-accordion relative flex gap-x-0 group rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700" id="hs-accordion-item-{{ $index }}">
         
         <!-- Close Button -->
-        <button type="button" class="js-close-timeline-element opacity-0 transition-opacity pointer-events-none duration-300 absolute flex md:top-4 md:right-4 md:size-8 top-1 right-1 size-5 z-30 items-center justify-center  rounded-full bg-neutral-800 hover:bg-neutral-800/50 hover:text-neutral-800 dark:hover:text-white backdrop-blur-sm dark:text-neutral-800 dark:bg-white dark:hover:bg-white/50 text-white">
+        <button type="button" class="js-close-timeline-element opacity-0 transition-opacity pointer-events-none duration-300 absolute flex md:top-4 md:right-4 md:size-8 top-1 right-1 size-5 z-30 items-center justify-center  rounded-full bg-neutral-800 hover:bg-neutral-700 backdrop-blur-sm dark:text-neutral-800 dark:bg-white dark:hover:bg-gray-200 text-white">
           <svg class="shrink-0 size-4 md:size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
         </button>
 
@@ -58,8 +58,8 @@
         </button>
 
         <!-- Left Content -->
-        <div class="max-xl:hidden min-w-20 text-end">
-          <span class="text-xs text-gray-500 dark:text-neutral-400">{{ .Params.Year }}</span>
+        <div class="max-sm:hidden min-w-20 text-end">
+          <span class="text-xs text-gray-500 dark:text-neutral-300">{{ .Params.Year }}</span>
         </div>
         <!-- End Left Content -->
 
@@ -93,6 +93,13 @@
       {{ end }}
       
   </div>
+</div>
+
+<!-- Back to top button -->
+<div class="text-center">
+  <a type="button" href="#" class="py-2 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-neutral-800 dark:bg-white text-white dark:text-neutral-800 hover:bg-neutral-700 dark:hover:bg-gray-200 focus:outline-hidden disabled:opacity-50 disabled:pointer-events-none">
+    {{ i18n "general.backToTop" }} <i class="text-xl bi bi-arrow-up-square"></i>
+  </a>
 </div>
 
 {{ end }}

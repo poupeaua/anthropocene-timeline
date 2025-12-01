@@ -88,6 +88,9 @@
         "seeSource": {
             "other": "Ver fuente"
         },
+        "backToTop": {
+            "other": "Volver al inicio"
+        },
         "copyMail": {
             "other": "Copiar email"
         }

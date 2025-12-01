@@ -23,7 +23,7 @@ images = ["/img/main/art-ipcc-curv.jpeg"]
     [languages.en.params]
       languageShort = "EN"
   [languages.fr]
-    title = "La ligne du temps de l'Anthropocène"
+    title = "La frise chronologique de l'Anthropocène"
     contentDir = "content/fr"
     languageName = "Français"
     copyright = 'Anthropocene Timeline. Tous droits réservés.'
@@ -33,7 +33,7 @@ images = ["/img/main/art-ipcc-curv.jpeg"]
       [languages.fr.params.navigation]
         help = 'Aide'
   [languages.es]
-    title = 'La linea de tiempo del Anthropoceno'
+    title = 'La línea de tiempo del Anthropoceno'
     contentDir = "content/es"
     languageName = "Español"
     copyright = 'Anthropocene Timeline. Todos los derechos reservados.'
