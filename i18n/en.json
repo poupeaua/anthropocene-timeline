@@ -88,6 +88,9 @@
         "seeSource": {
             "other": "See source"
         },
+        "backToTop": {
+            "other": "Back to top"
+        },
         "copyMail": {
             "other": "Copy email"
         }
