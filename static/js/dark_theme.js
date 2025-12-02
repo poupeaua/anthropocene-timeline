@@ -4,16 +4,18 @@ window.addEventListener('load', () => {
       const destroy = document.querySelector('#hs-destroy-theme-switch');
       const autoInit = document.querySelector('#hs-auto-init-theme-switch');
 
-      destroy.addEventListener('click', () => {
-        themeSwitches.forEach((el) => {
-          const {element} = HSThemeSwitch.getInstance(el, true);
+      if (destroy) {
+        destroy.addEventListener('click', () => {
+          themeSwitches.forEach((el) => {
+            const {element} = HSThemeSwitch.getInstance(el, true);
 
-          element.destroy();
+            element.destroy();
+          });
+
+          destroy.setAttribute('disabled', 'disabled');
+          autoInit.removeAttribute('disabled');
         });
-
-        destroy.setAttribute('disabled', 'disabled');
-        autoInit.removeAttribute('disabled');
-      });
+      };
 
       autoInit.addEventListener('click', () => {
         HSThemeSwitch.autoInit();
