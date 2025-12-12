@@ -6,7 +6,7 @@ Type: "timelineEvent"
 id: now
 ---
 
-#### Study, Share and Act
+##### Study, Share and Act
 
 You can be a thinker, a maker, an instigator, an organiser or a facilitator (Arthur Keller - 2022).
 

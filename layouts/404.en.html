@@ -5,12 +5,12 @@
     style="background-image: url('{{ "img/404-error-icon.png" | relURL }}'); background-size: cover; background-position: center 24%;">
   </div>
 
-  <div class="absolute bottom-14 left-1/2 -translate-x-1/2 flex flex-col items-center text-neutral-800 dark:text-white">
-      <h4 class="text-4xl font-bold">Error 404 Not Found.</h4>
-      <h5 class="text-base font-medium text-neutral-800 dark:text-white">
-        The page you requested cannot be found
-      </h5>
-      <a class="mt-6 inline-block bg-white hover:bg-gray-100 dark:bg-neutral-800 dark:hover:bg-neutral-700 text-neutral-800 dark:text-white font-bold py-2 px-4 rounded" href="{{ .Site.Home.RelPermalink }}">
+  <div class="absolute bottom-14 left-1/2 -translate-x-1/2 flex flex-col text-center items-center text-white">
+      <h4 class="text-4xl font-bold">Error 404 Not Found</h4>
+      <p class="text-base font-medium text-white">
+        The page you requested cannot be found.
+      <p>
+      <a class="mt-6 inline-block bg-white text-neutral-800 hover:bg-neutral-100 font-bold py-2 px-4 rounded-lg" href="{{ .Site.Home.RelPermalink }}">
           Return to Home Page
       </a>
   </div>

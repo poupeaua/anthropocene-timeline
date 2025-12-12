@@ -7,7 +7,7 @@ hidden: "true"
 id: now
 ---
 
-#### Étudier, partager et agir
+##### Étudier, partager et agir
 
 Vous pouvez être un penseur, un créateur, un instigateur, un organisateur ou un facilitateur (Arthur Keller - 2022).
 

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
+  darkMode: 'class',
   content: [
     "./layouts/**/*.{html,js}",  // Hugo templates
     "./content/**/*.{html,md}",  // Markdown or embedded HTML
