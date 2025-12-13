@@ -1,13 +1,14 @@
 {{ define "main" }}
 
-<div class="relative h-screen w-full bg-white dark:bg-neutral-800">
+<div class="relative h-dvh w-full bg-white dark:bg-neutral-800">
   <div
     class="absolute inset-0 bg-cover bg-no-repeat mask-b-from-50% mask-b-to-99%"
     style="background-image: url('{{ "img/main/art-ipcc-curv.jpeg" | relURL }}'); background-size: cover; background-position: center;">
   </div>
 
-  <a class="absolute bottom-15 left-1/2 -translate-x-1/2 flex flex-col items-center text-neutral-800 dark:text-white" href="#timeline-start">
-    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor"
+  <!-- Arrow down -->
+  <a class="absolute bottom-5 left-1/2 -translate-x-1/2 flex flex-col items-center text-neutral-800 dark:text-white" href="#timeline-start">
+    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" 
       class="bi bi-arrow-down-short animate-bounce mt-4"
       viewBox="0 0 16 16">
       <path fill-rule="evenodd"
@@ -17,7 +18,8 @@
     </svg>
   </a>
   
-  <div class="absolute bottom-30 inset-x-0">
+  <!-- Landing Page description -->
+  <div class="absolute bottom-20 inset-x-0">
     <div class="max-w-7xl w-full sm:mx-auto ps-4">
         <div class="max-w-xl">
           <h2 class="text-4xl sm:text-5xl font-bold mb-4 dark:text-white">{{ $.Param "landingpage.title" }}</h1>
