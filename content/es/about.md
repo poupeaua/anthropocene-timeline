@@ -1,5 +1,6 @@
 ---
 Title: Sobre - Anthropocene Timeline
+description: "Conoce el proyecto de la Línea del Tiempo del Antropoceno, su misión de promover la conciencia sobre la ecología."
 id: about
 Type: about
 

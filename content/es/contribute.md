@@ -1,5 +1,6 @@
 ---
 Title: Contribuir - Anthropocene Timeline
+description: ¡Ayúda el proyecto de la Línea del Tiempo del Antropoceno a crecer! Agrega contenido, únete a la comunidad y marca la diferencia.
 
 top:
     title: Contribuir
