@@ -18,4 +18,7 @@
 
     <!-- Site Title -->
     <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+
+    <!-- Description -->
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 </head>
