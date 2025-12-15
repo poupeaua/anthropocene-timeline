@@ -4,7 +4,7 @@
   <meta property="og:site_name" content="{{ . }}">
 {{- end }}
 
-{{- with or site.Title site.Params.title | plainify }}
+{{- with or .Title site.Title site.Params.title | plainify }}
   <meta property="og:title" content="{{ . }}">
 {{- end }}
 

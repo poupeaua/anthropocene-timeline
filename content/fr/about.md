@@ -1,5 +1,6 @@
 ---
-Title: "À propos"
+Title: "À propos - Anthropocene Timeline"
+description: "En savoir plus sur le projet de la Frise chronologique de l’Anthropocène, sa mission de faire connaître l’importance de l’histoire de l’Écologie."
 id: about
 Type: about
 

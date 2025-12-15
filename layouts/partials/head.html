@@ -14,17 +14,11 @@
 
     {{ partial "opengraph.html" . }}
 
-    <!-- Mini Page Icon on browsers -->
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
-
-    <!-- Preline UI CSS -->
-    <link rel="stylesheet" href='{{ "css/main.css" | relURL }}'>
-
-    <script src="/js/theme.js"></script>
+    {{ partial "style.html" . }}
 
     <!-- Site Title -->
-    <title>{{ .Site.Title }}</title>
+    <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
+
+    <!-- Description -->
+    <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 </head>

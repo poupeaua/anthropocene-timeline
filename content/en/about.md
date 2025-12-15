@@ -1,5 +1,6 @@
 ---
-Title: About
+Title: About - Anthropocene Timeline
+description: "Learn about the Anthropocene Timeline project, its mission to raise awareness about ecological history."
 id: about
 Type: about
 

@@ -1,5 +1,6 @@
 ---
-Title: Timeline
+Title: Anthropocene Timeline
+description: "Ecology meets History: A concise, sourced timeline of key ecological and Anthropocene-related events — from past to present."
 weight: 1
 type: "timeline"
 

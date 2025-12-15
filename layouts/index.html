@@ -22,7 +22,7 @@
   <div class="absolute bottom-20 inset-x-0">
     <div class="max-w-7xl w-full sm:mx-auto ps-4">
         <div class="max-w-xl">
-          <h2 class="text-4xl sm:text-5xl font-bold mb-4 dark:text-white">{{ $.Param "landingpage.title" }}</h1>
+          <h1 class="text-sm sm:text-sm font-bold mb-4 dark:text-white">{{ $.Param "landingpage.title" }}</h1>
           <p class="dark:text-white">{{ $.Param "landingpage.subtitle" }}</p>
           <p class="font-semibold dark:text-white">{{ $.Param "landingpage.tap" }}</p>
           <a href="#timeline-start" class="py-3 px-4 mr-5 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-hidden focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none">
@@ -51,9 +51,7 @@
           <svg class="shrink-0 size-4 md:size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
         </button>
 
-        <button type="button" class="hs-accordion-toggle absolute inset-0 w-full h-full rounded-lg
-           bg-transparent border-0 appearance-none
-           cursor-pointer z-10"
+        <button type="button" class="hs-accordion-toggle absolute inset-0 w-full h-full rounded-lg bg-transparent border-0 appearance-none cursor-pointer z-10"
           id="hs-accordion-heading-{{ $index }}"
           aria-expanded="false"
           aria-controls="hs-accordion-content-{{ $index }}">

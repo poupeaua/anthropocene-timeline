@@ -1,5 +1,6 @@
 ---
-Title: Contribute
+Title: Contribute - Anthropocene Timeline
+description: "Help the Anthropocene Timeline projet grow! Add content, join the community, and make a difference."
 
 top:
     title: Contribute
