@@ -26,5 +26,5 @@
     <script src="/js/theme.js"></script>
 
     <!-- Site Title -->
-    <title>{{ .Site.Title }}</title>
+    <title>{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}</title>
 </head>
