@@ -1,3 +1,3 @@
 ---
-title: "Articles Scientifiques"
+title: "Articles Scientifiques - Anthropocene Timeline"
 ---

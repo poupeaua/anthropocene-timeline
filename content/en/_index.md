@@ -1,5 +1,5 @@
 ---
-Title: Timeline
+Title: Index - Anthropocene Timeline
 weight: 1
 type: "timeline"
 

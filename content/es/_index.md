@@ -1,5 +1,5 @@
 ---
-Title: Linea del tiempo
+Title: Index - Línea del Tiempo del Antropoceno
 type: "timeline"
 
 landingpage:

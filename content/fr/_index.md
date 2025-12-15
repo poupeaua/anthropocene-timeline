@@ -1,5 +1,5 @@
 ---
-Title: Frise chronologique
+Title: "Index - Frise chronologique de l'Anthropocène"
 type: "timeline"
 
 landingpage:

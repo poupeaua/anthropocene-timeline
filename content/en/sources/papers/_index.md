@@ -1,3 +1,3 @@
 ---
-title: "Papers"
+title: "Papers - Anthropocene Timeline"
 ---

@@ -1,3 +1,3 @@
 ---
-title: "Articles"
+title: "Articles (FR) - Anthropocene Timeline"
 ---

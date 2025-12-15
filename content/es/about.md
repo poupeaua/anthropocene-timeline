@@ -1,5 +1,5 @@
 ---
-Title: Sobre
+Title: Sobre - Anthropocene Timeline
 id: about
 Type: about
 

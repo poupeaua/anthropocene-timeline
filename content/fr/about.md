@@ -1,5 +1,5 @@
 ---
-Title: "À propos"
+Title: "À propos - Anthropocene Timeline"
 id: about
 Type: about
 
