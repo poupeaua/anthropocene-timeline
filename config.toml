@@ -11,6 +11,7 @@ email = "contact@anthropocenetimeline.com"
 siteName = 'Anthropocene Timeline'
 images = ["/img/main/art-ipcc-curv.jpeg"]
 description = "A comprehensive timeline documenting humanity's impact on Earth, exploring key events, scientific discoveries, and environmental changes that define the Anthropocene epoch."
+websitePro = "https://alexandrepoupeau.com"
 [params.navigation]
   help = 'Help'
 
